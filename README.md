@@ -1,3 +1,3 @@
-## [Here it is! 🦦](https://joshua-s-c.github.io/site/)
+## [Here it is! 🦦](https://jupiter-sc.github.io/site/)
 
 ⚠️ Currently in construction ⚠️
