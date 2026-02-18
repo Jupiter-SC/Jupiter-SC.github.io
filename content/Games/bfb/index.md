@@ -33,14 +33,11 @@ Aim and slide finger or use keyboard to roll the bolle. Try to get more of yours
 Singleplayer Campaign
 - Find the perfect tactic to beat preset strategies
 
-
 Multiplayer Versus
 - Face off against your friends with pass-n-play
 
-
 Customization
 - Change your bolle and arena
-
 
 Unlockables
 - Earn arena and prop cosmetics that teach about BFB culture
@@ -52,10 +49,12 @@ Unlockables
 
 # About the Project
 
-*Role(s):*	Sole Programmer \& Scrum Master \
-*Team Size:* 	5 \
-*Timeline:*	Mar 2024 - May 2024 \
-*Technology:*	Unity, C#
+| |  |
+| -----------	| -------------------------	|
+| Roles			| Sole Programmer & Scrum Master	|
+| Team Size		| 5						|
+| Timeline		| Mar 2024 - May 2024 |
+| Technology	| Unity, C# |
 
 * Built using Scrum and Agile methodologies
 * Created game pitch presentation

@@ -11,15 +11,13 @@ type: "Graphics"
 
 {{< columns >}}
 
-![Logo](Logo.png)
-
-GitHub Link
+![Main GIF](feature.png)
 
 <--->
 
-# Volumetric Clouds
+# Overview
 
-- Volumetric rendering is cool
+- Volumetric rendering is cool!
 - Implemented as a post processing effect using ray marching
 - Rays march through a 3D noise texture and to light source, calculating light based on that density
 - Approximating light scattering with Henyey Greenstein Phase Function
@@ -27,30 +25,20 @@ GitHub Link
 
 {{< /columns >}}
 
-{{< github repo="Joshua-S-C/Unity-Clouds" showThumbnail=true >}}
-
 {{< columns >}}
 
-# About the Project
-
-*Role(s):*	Programmer\
-*Team Size:* 	 Solo\
-*Timeline:*	\
-*Technology:* Unity, C#, HLSL	
-
-* 
-* 
-* 
-
-
-My contributions
-
-* 
-* 
-* 
-* 
+# About the Process
+| |  |
+| -----------	| -------------------------	|
+| Roles			| Programmer	|
+| Team Size		| Solo				|
+| Timeline		| April 2025 |
+| Technology	| Unity, C#, HLSL |
 
 <--->
 
+![Main GIF](feature.png)
 
 {{< /columns >}}
+
+{{< github repo="Joshua-S-C/Unity-Clouds" showThumbnail=true >}}

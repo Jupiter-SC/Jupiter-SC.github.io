@@ -33,14 +33,15 @@ It features frantic point and click gameplay, a large amount of variety, and hil
 
 # About the Project
 
-*Role(s):*	Sole Programmer & Producer\
-*Team Size:* 	4\
-*Timeline:*	Feb 2024 - March 2024\
-*Technology:*	Unity, C#
+| |  |
+| -----------	| -------------------------	|
+| Roles			| Sole Programmer & Producer |
+| Team Size		| 4						|
+| Timeline		| Feb 2024 - March 2024|
+| Technology	| Unity, C# |
 
 * Applied Scrum and Agile methodologies
 * Created game pitch presentation
-
 
 My contributions
 

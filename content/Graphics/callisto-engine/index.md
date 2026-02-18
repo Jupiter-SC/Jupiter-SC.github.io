@@ -4,23 +4,20 @@ date: 2026-02-02
 draft: false
 summary:  'Custom rendering engine used for my OpenGL projects. (Yes I named it after a moon of Jupiter)'
 catergories: ['Graphics']
-tags: ['C++', 'OpenGL', 'Callisto Engine', 'Game Engine Development']
+tags: ['C++', 'OpenGL', 'Callisto Engine', 'Engine']
 weight: 2
 type: "Graphics"
 ---
 
 {{< columns >}}
 
-![Logo](Logo.png)
-
-TODO GitHub Link
+![Logo](feature.jpg)
 
 <--->
 
-# Callisto Engine
+# Overview
 
 Custom 3D Rendering engine built using C++ and OpenGL
-
 
 Features: 
 
@@ -35,13 +32,13 @@ Features:
 
 {{< columns >}}
 
-# About the Project
-
-*Role(s):*	Programmer\
-*Team Size:* 	 Solo\
-*Timeline:*	\
-*Technology:*	
-
+# About the Process
+| |  |
+| -----------	| -------------------------	|
+| Roles			| Programmer	|
+| Team Size		| Solo				|
+| Timeline		| Ongoing!		|
+| Technology	| C++, OpenGL |
 
 <--->
 

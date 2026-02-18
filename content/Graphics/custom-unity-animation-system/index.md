@@ -18,15 +18,17 @@ catergories: ['Graphics']
 
 need to actually put videos / gifs
 
-# About the Project
-*Role(s):*	Programmer\
-*Team Size:* 	 3\
-*Timeline:*	Dec 2025\
-*Technology:*	Unity, C#
+# About the Process
+| |  |
+| -----------	| -------------------------	|
+| Roles			| Programmer	|
+| Team Size		| 3 |
+| Timeline		| Dec 2025|
+| Technology	| Unity, C# |
 
 <--->
 
-# Animation System
+# Overview
 * Built fully usable animation pipeline and engine agnostic animation system
 * Built a Unity Bridge to translate this information to Unity objects / components
 * Used the system to make a character controller to move, jump, dance, pick up a box, and look at objects

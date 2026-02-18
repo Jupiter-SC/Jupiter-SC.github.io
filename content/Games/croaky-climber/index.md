@@ -31,11 +31,12 @@ Play through 4 main levels with varying gimmicks, aesthetics, and difficulty
 
 # About the Project
 
-*Role(s):*	Sole Programmer \& Designer \
-*Team Size:* 	2 \
-*Timeline:*	Winter 2021 - Spring 2022 \
-*Technology:*	Game Maker Studio, 	Muse Score (music), 	
-			Kdenlive (video editing)
+| |  |
+| -----------	| -------------------------	|
+| Roles			| Sole Programmer & Designer |
+| Team Size		| 2						|
+| Timeline		| Winter 2021 - Spring 2022 |
+| Technology	| Game Maker Studio, Muse Score (music), Kdenlive (video editing) |
 
 * Submitted and won 1st place for NY Skills USA Game Design Competition
 * Applied Scrum and Agile methodologies

@@ -34,10 +34,12 @@ Do cool combos, use special philosophy-inspired moves, and send opponents flying
 
 # About the Project
 
-*Role(s):*	Programmer \& Scrum Master \
-*Team Size:* 	15 \
-*Timeline:*	Sep 2025 -  Ongoing \
-*Technology:*	Unity, C#
+| |  |
+| -----------	| -------------------------	|
+| Roles			| Programmer & Scrum Master	|
+| Team Size		| 15						|
+| Timeline		| Aug 2025 - Ongoing		|
+| Technology	| Unity, C#, HLSL			|
 
 * Built using Scrum and Agile methodologies
 * Pitched to Champlain College faculty, chosen to be "Greenlit" and continue development

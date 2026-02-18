@@ -12,11 +12,11 @@ featured: true
 
 {{< columns >}}
 
-![Logo](Logo.png)
+![Logo](feature1.gif)
 
 <--->
 
-# Gerstner Waves
+# Overview
 
 * Made with OpenGL / GLSL in own rendering engine
 * Uses math done by real smart people to be physically accurate
@@ -35,12 +35,13 @@ TODO View on GitHub
 
 {{< columns >}}
 
-# About the Project
-
-*Role(s):*	Programmer\
-*Team Size:* 	 Solo\
-*Timeline:*	Nov 2023 -  Dec 2023\
-*Technology:*	OpenGL / GLSL, C++
+# About the Process
+| |  |
+| -----------	| -------------------------	|
+| Roles			| Programmer	|
+| Team Size		| Solo				|
+| Timeline		| Nov 2023 -  Dec 2023	|
+| Technology	| C++, OpenGL, GLSL |
 
 <--->
 

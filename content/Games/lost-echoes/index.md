@@ -29,11 +29,13 @@ Itch.io upload coming soon!
 
 # About the Project
 
-*Role(s):*	Programmer & Product Owner\
-*Team Size:* 	8 \
-*Timeline:*	Jan 2025 -  Apr 2025 \
-*Technology:*	Unity, C#
 
+| |  |
+| -----------	| -------------------------	|
+| Roles			| Programmer & Product Owner	|
+| Team Size		| 8						|
+| Timeline		| Jan 2025 -  Apr 2025 |
+| Technology	| Unity, C# |
 
 <--->
 
