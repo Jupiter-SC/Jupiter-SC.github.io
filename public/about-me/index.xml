@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About Me on Jupiter Sinclair Chong</title>
-    <link>http://localhost:1313/site/about-me/</link>
+    <link>https://joshua-s-c.github.io/site/about-me/</link>
     <description>Recent content in About Me on Jupiter Sinclair Chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>youremail@example.com (Jupiter Sinclair Chong)</managingEditor>
     <webMaster>youremail@example.com (Jupiter Sinclair Chong)</webMaster>
     <copyright>© 2026 Jupiter Sinclair Chong</copyright>
-    <atom:link href="http://localhost:1313/site/about-me/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://joshua-s-c.github.io/site/about-me/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

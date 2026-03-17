@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Game Maker Studio 2 on Jupiter Sinclair Chong</title>
-    <link>http://localhost:1313/site/tags/game-maker-studio-2/</link>
+    <link>https://joshua-s-c.github.io/site/tags/game-maker-studio-2/</link>
     <description>Recent content in Game Maker Studio 2 on Jupiter Sinclair Chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>youremail@example.com (Jupiter Sinclair Chong)</managingEditor>
     <webMaster>youremail@example.com (Jupiter Sinclair Chong)</webMaster>
     <copyright>© 2026 Jupiter Sinclair Chong</copyright>
-    <lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/site/tags/game-maker-studio-2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://joshua-s-c.github.io/site/tags/game-maker-studio-2/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Croaky Climber</title>
-      <link>http://localhost:1313/site/games/croaky-climber/</link>
+      <link>https://joshua-s-c.github.io/site/games/croaky-climber/</link>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>http://localhost:1313/site/games/croaky-climber/</guid>
+      <guid>https://joshua-s-c.github.io/site/games/croaky-climber/</guid>
       <description>A 2D platformer where the hero can&amp;rsquo;t jump and moves by grappling with his tongue</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/croaky-climber/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://joshua-s-c.github.io/site/games/croaky-climber/feature.png" />
     </item>
     
   </channel>

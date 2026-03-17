@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Procedural Modeling on Jupiter Sinclair Chong</title>
-    <link>http://localhost:1313/site/tags/procedural-modeling/</link>
+    <link>https://joshua-s-c.github.io/site/tags/procedural-modeling/</link>
     <description>Recent content in Procedural Modeling on Jupiter Sinclair Chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>youremail@example.com (Jupiter Sinclair Chong)</managingEditor>
     <webMaster>youremail@example.com (Jupiter Sinclair Chong)</webMaster>
     <copyright>© 2026 Jupiter Sinclair Chong</copyright>
-    <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/site/tags/procedural-modeling/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://joshua-s-c.github.io/site/tags/procedural-modeling/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Procedural Rocks &amp; Pillars</title>
-      <link>http://localhost:1313/site/tech-art/procedural-rocks--pillars/</link>
+      <link>https://joshua-s-c.github.io/site/tech-art/procedural-rocks--pillars/</link>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>http://localhost:1313/site/tech-art/procedural-rocks--pillars/</guid>
+      <guid>https://joshua-s-c.github.io/site/tech-art/procedural-rocks--pillars/</guid>
       <description>Two procedural assets built with Houdini, used for rapid creation, iteration, and variety</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/tech-art/procedural-rocks--pillars/feature-1.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://joshua-s-c.github.io/site/tech-art/procedural-rocks--pillars/feature-1.jpg" />
     </item>
     
     <item>
       <title>Maya Voxelizer</title>
-      <link>http://localhost:1313/site/tech-art/maya-voxelizer/</link>
+      <link>https://joshua-s-c.github.io/site/tech-art/maya-voxelizer/</link>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>http://localhost:1313/site/tech-art/maya-voxelizer/</guid>
+      <guid>https://joshua-s-c.github.io/site/tech-art/maya-voxelizer/</guid>
       <description>A script that takes a Maya object and turns it into Voxlels based on user Parameters. Maya, Python.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/tech-art/maya-voxelizer/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://joshua-s-c.github.io/site/tech-art/maya-voxelizer/feature.png" />
     </item>
     
   </channel>
