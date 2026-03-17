@@ -6,6 +6,8 @@
     <description>Recent content on Jupiter Sinclair Chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>youremail@example.com (Jupiter Sinclair Chong)</managingEditor>
+    <webMaster>youremail@example.com (Jupiter Sinclair Chong)</webMaster>
     <copyright>© 2026 Jupiter Sinclair Chong</copyright>
     <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/site/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +15,7 @@
       <title>Socratic Smackdown</title>
       <link>http://localhost:1313/site/games/socratic-smackdown/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/games/socratic-smackdown/</guid>
       <description>A platform fighter where animalized versions of classic philosophers put down their words and raise up their fists!</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/socratic-smackdown/feature.png" />
@@ -23,7 +25,7 @@
       <title>Gerstner Waves</title>
       <link>http://localhost:1313/site/graphics/gerstner-waves/</link>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/graphics/gerstner-waves/</guid>
       <description>A water shader that simulates physically accurate waves using real math done by real smart people</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/graphics/gerstner-waves/feature1.gif" />
@@ -33,7 +35,7 @@
       <title>Procedural Rocks &amp; Pillars</title>
       <link>http://localhost:1313/site/tech-art/procedural-rocks--pillars/</link>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tech-art/procedural-rocks--pillars/</guid>
       <description>Two procedural assets built with Houdini, used for rapid creation, iteration, and variety</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/tech-art/procedural-rocks--pillars/feature-1.jpg" />
@@ -43,7 +45,7 @@
       <title>Maya Voxelizer</title>
       <link>http://localhost:1313/site/tech-art/maya-voxelizer/</link>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tech-art/maya-voxelizer/</guid>
       <description>A script that takes a Maya object and turns it into Voxlels based on user Parameters. Maya, Python.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/tech-art/maya-voxelizer/feature.png" />
@@ -53,7 +55,7 @@
       <title>Callisto Engine</title>
       <link>http://localhost:1313/site/graphics/callisto-engine/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/graphics/callisto-engine/</guid>
       <description>Custom rendering engine used for my OpenGL projects. (Yes I named it after a moon of Jupiter)</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/graphics/callisto-engine/feature.jpg" />
@@ -63,7 +65,7 @@
       <title>Belgian Feather Bowling : On The Go!</title>
       <link>http://localhost:1313/site/games/bfb/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/games/bfb/</guid>
       <description>A 3D, educational recreation of the sport Belgian Feather Bowling for Web and Mobile</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/bfb/feature.png" />
@@ -73,7 +75,7 @@
       <title>Croaky Climber</title>
       <link>http://localhost:1313/site/games/croaky-climber/</link>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/games/croaky-climber/</guid>
       <description>A 2D platformer where the hero can&amp;rsquo;t jump and moves by grappling with his tongue</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/croaky-climber/feature.png" />
@@ -83,7 +85,7 @@
       <title>Volumetric Clouds</title>
       <link>http://localhost:1313/site/graphics/volumetric-clouds/</link>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/graphics/volumetric-clouds/</guid>
       <description>Volumetric clouds implemented as a post processing effect using ray marching.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/graphics/volumetric-clouds/feature.png" />
@@ -93,9 +95,9 @@
       <title>Rigging &amp; Tools</title>
       <link>http://localhost:1313/site/tech-art/rigging--tools/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tech-art/rigging--tools/</guid>
-      <description></description>
+      <description>&lt;p&gt;Page Coming Soon&lt;/p&gt;</description>
       
     </item>
     
@@ -103,7 +105,7 @@
       <title>Custom Animation System &amp; Character Controller in Unity</title>
       <link>http://localhost:1313/site/graphics/custom-unity-animation-system/</link>
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/graphics/custom-unity-animation-system/</guid>
       <description>We built a completely engine agnostic animation backend and hooked it up to Unity specifics.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/graphics/custom-unity-animation-system/feature.png" />
@@ -113,7 +115,7 @@
       <title>Lost Echoes</title>
       <link>http://localhost:1313/site/games/lost-echoes/</link>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/games/lost-echoes/</guid>
       <description>A story driven sci-fi thriller which immerses the player in the confines of a research spaceship stuck in a time loop.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/lost-echoes/feature.png" />
@@ -123,7 +125,7 @@
       <title>Bleak Friday</title>
       <link>http://localhost:1313/site/games/bleak-friday/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/games/bleak-friday/</guid>
       <description>A 2D action game that puts the player in the role of a retail cashier on Black Friday It features frantic point and click gameplay, a large amount of variety, and hilarious items</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/bleak-friday/feature.png" />
@@ -133,7 +135,7 @@
       <title>Vulkan Renderer</title>
       <link>http://localhost:1313/site/graphics/vulkan-renderer/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/graphics/vulkan-renderer/</guid>
       <description>I&amp;rsquo;m learning Vulkan!</description>
       

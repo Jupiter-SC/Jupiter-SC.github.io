@@ -6,6 +6,8 @@
     <description>Recent content in Houdini on Jupiter Sinclair Chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>youremail@example.com (Jupiter Sinclair Chong)</managingEditor>
+    <webMaster>youremail@example.com (Jupiter Sinclair Chong)</webMaster>
     <copyright>© 2026 Jupiter Sinclair Chong</copyright>
     <lastBuildDate>Wed, 04 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/site/tags/houdini/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +15,7 @@
       <title>Procedural Rocks &amp; Pillars</title>
       <link>http://localhost:1313/site/tech-art/procedural-rocks--pillars/</link>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tech-art/procedural-rocks--pillars/</guid>
       <description>Two procedural assets built with Houdini, used for rapid creation, iteration, and variety</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/tech-art/procedural-rocks--pillars/feature-1.jpg" />

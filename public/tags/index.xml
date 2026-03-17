@@ -6,6 +6,8 @@
     <description>Recent content in Tags on Jupiter Sinclair Chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>youremail@example.com (Jupiter Sinclair Chong)</managingEditor>
+    <webMaster>youremail@example.com (Jupiter Sinclair Chong)</webMaster>
     <copyright>© 2026 Jupiter Sinclair Chong</copyright>
     <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/site/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +15,7 @@
       <title>Animation Programming</title>
       <link>http://localhost:1313/site/tags/animation-programming/</link>
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tags/animation-programming/</guid>
       <description></description>
       
@@ -23,7 +25,7 @@
       <title>C#</title>
       <link>http://localhost:1313/site/tags/c%23/</link>
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tags/c%23/</guid>
       <description></description>
       
@@ -33,7 +35,7 @@
       <title>Unity</title>
       <link>http://localhost:1313/site/tags/unity/</link>
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tags/unity/</guid>
       <description></description>
       
@@ -43,7 +45,7 @@
       <title>HLSL</title>
       <link>http://localhost:1313/site/tags/hlsl/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tags/hlsl/</guid>
       <description></description>
       
@@ -53,7 +55,7 @@
       <title>C&#43;&#43;</title>
       <link>http://localhost:1313/site/tags/c&#43;&#43;/</link>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tags/c&#43;&#43;/</guid>
       <description></description>
       
@@ -63,7 +65,7 @@
       <title>Callisto Engine</title>
       <link>http://localhost:1313/site/tags/callisto-engine/</link>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tags/callisto-engine/</guid>
       <description></description>
       
@@ -73,7 +75,7 @@
       <title>Game Maker Studio 2</title>
       <link>http://localhost:1313/site/tags/game-maker-studio-2/</link>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tags/game-maker-studio-2/</guid>
       <description></description>
       
@@ -83,7 +85,7 @@
       <title>GML</title>
       <link>http://localhost:1313/site/tags/gml/</link>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tags/gml/</guid>
       <description></description>
       
@@ -93,7 +95,7 @@
       <title>OpenGL</title>
       <link>http://localhost:1313/site/tags/opengl/</link>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tags/opengl/</guid>
       <description></description>
       
@@ -103,7 +105,7 @@
       <title>Houdini</title>
       <link>http://localhost:1313/site/tags/houdini/</link>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tags/houdini/</guid>
       <description></description>
       
@@ -113,7 +115,7 @@
       <title>Procedural Modeling</title>
       <link>http://localhost:1313/site/tags/procedural-modeling/</link>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tags/procedural-modeling/</guid>
       <description></description>
       
@@ -123,7 +125,7 @@
       <title>Maya</title>
       <link>http://localhost:1313/site/tags/maya/</link>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tags/maya/</guid>
       <description></description>
       
@@ -133,7 +135,7 @@
       <title>Python</title>
       <link>http://localhost:1313/site/tags/python/</link>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tags/python/</guid>
       <description></description>
       
@@ -143,7 +145,7 @@
       <title>Unity URP</title>
       <link>http://localhost:1313/site/tags/unity-urp/</link>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tags/unity-urp/</guid>
       <description></description>
       
@@ -153,7 +155,7 @@
       <title>3D Animation</title>
       <link>http://localhost:1313/site/tags/3d-animation/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tags/3d-animation/</guid>
       <description></description>
       
@@ -163,7 +165,7 @@
       <title>Engine</title>
       <link>http://localhost:1313/site/tags/engine/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tags/engine/</guid>
       <description></description>
       
@@ -173,7 +175,7 @@
       <title>Rigging</title>
       <link>http://localhost:1313/site/tags/rigging/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tags/rigging/</guid>
       <description></description>
       
@@ -183,7 +185,7 @@
       <title>Vulkan</title>
       <link>http://localhost:1313/site/tags/vulkan/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tags/vulkan/</guid>
       <description></description>
       

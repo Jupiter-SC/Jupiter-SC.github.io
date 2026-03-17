@@ -6,6 +6,8 @@
     <description>Recent content in Maya on Jupiter Sinclair Chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>youremail@example.com (Jupiter Sinclair Chong)</managingEditor>
+    <webMaster>youremail@example.com (Jupiter Sinclair Chong)</webMaster>
     <copyright>© 2026 Jupiter Sinclair Chong</copyright>
     <lastBuildDate>Tue, 03 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/site/tags/maya/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +15,7 @@
       <title>Maya Voxelizer</title>
       <link>http://localhost:1313/site/tech-art/maya-voxelizer/</link>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tech-art/maya-voxelizer/</guid>
       <description>A script that takes a Maya object and turns it into Voxlels based on user Parameters. Maya, Python.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/tech-art/maya-voxelizer/feature.png" />
@@ -23,9 +25,9 @@
       <title>Rigging &amp; Tools</title>
       <link>http://localhost:1313/site/tech-art/rigging--tools/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/tech-art/rigging--tools/</guid>
-      <description></description>
+      <description>&lt;div class=&#34;col-start-1 row-start-1 flex flex-wrap gap-4 rounded-lg font-mono text-sm/6 font-bold text-white&#34;&gt;&#xA;    &lt;div class=&#34;flex w-2/5 items-center justify-center rounded-lg bg-indigo-500 p-4&#34;&gt;&#xA;        01&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;flex w-2/5 items-center justify-center rounded-lg bg-indigo-500 p-4&#34;&gt;&#xA;        02&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;flex w-2/5 items-center justify-center rounded-lg bg-indigo-500 p-4&#34;&gt;&#xA;        03&#xA;    &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;flex flex-wrap&#34;&gt;&#xA;  &lt;div&gt;01&lt;/div&gt;&#xA;  &lt;div&gt;02&lt;/div&gt;&#xA;  &lt;div&gt;03&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;grid grid-cols-4 gap-4&#34;&gt;&#xA;  &lt;div&gt;01&lt;/div&gt;&#xA;  &lt;div&gt;09&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div style=&#34;grid grid-cols-1 sm:grid-cols-2 gap-2&#34;&gt;&#xA;    &lt;div&gt;&lt;p&gt;TEXT&lt;br&gt;TEXT&lt;br&gt;&lt;/p&gt;</description>
       
     </item>
     

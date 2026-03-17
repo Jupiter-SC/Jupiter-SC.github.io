@@ -6,6 +6,8 @@
     <description>Recent content in Vulkan on Jupiter Sinclair Chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <managingEditor>youremail@example.com (Jupiter Sinclair Chong)</managingEditor>
+    <webMaster>youremail@example.com (Jupiter Sinclair Chong)</webMaster>
     <copyright>© 2026 Jupiter Sinclair Chong</copyright>
     <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/site/tags/vulkan/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +15,7 @@
       <title>Vulkan Renderer</title>
       <link>http://localhost:1313/site/graphics/vulkan-renderer/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/graphics/vulkan-renderer/</guid>
       <description>I&amp;rsquo;m learning Vulkan!</description>
       

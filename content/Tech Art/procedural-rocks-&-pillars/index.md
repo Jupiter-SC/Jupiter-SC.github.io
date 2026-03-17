@@ -9,3 +9,10 @@ weight: 1
 type: "Tech Art"
 featured: true
 ---
+
+
+Page Coming Soon
+
+{{< button href="https://jupiter-sc.github.io/site/" target="_self" >}}
+Return to Home
+{{< /button >}}

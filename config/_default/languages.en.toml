@@ -18,12 +18,13 @@ title = "Jupiter Sinclair Chong"
 [params.author]
 name = "Jupiter Sinclair Chong"
 image = ""
+email = "youremail@example.com"
 headline = "Games, Graphics, Tech Art, Tools"
 bio = "Game Programmer specializing in Graphics Programming, Tech Art, & Tools"
 links = [
+  { linkedin = "https://linkedin.com/in/jupiter-sinclair-chong" },
   { github = "https://github.com/Jupiter-SC" },    
   { itch-io = "https://jupiter-sc.itch.io" },
-  { linkedin = "https://linkedin.com/in/joshua-sinclair-chong" },
 ]
 
 # [params.author]

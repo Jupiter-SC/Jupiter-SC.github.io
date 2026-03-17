@@ -13,12 +13,15 @@ tags: ['Unity', 'C#', 'HLSL']
 featured: true
 ---
 
-
-{{< columns >}}
-
-{{< youtubeLite id="TkTGDHL3t8U" label="Socratic Smackdown | Alpha Trailer" >}}
-
-<--->
+<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
+    <div flex:1 1>
+      <iframe 
+        src="https://www.youtube.com/embed/TkTGDHL3t8U"
+        allowfullscreen
+        style="width: 100%; width: 500px; height: 300px">
+      </iframe>
+    </div>
+    <div style="float: right; width: 100%; max-width: 400px; min-width: 200px; margin-left: 20px">
 
 # About the Game
 
@@ -26,13 +29,19 @@ Socratic Smackdown is a 2.5D platform fighter where you play as animalized versi
 
 Do cool combos, use special philosophy-inspired moves, and send opponents flying off the stage in a fun-for-all fighting game experience!
 
+{{< button href="https://good-enouf-studios.itch.io/socratic-smackdown" target="_self" >}}
+Play on itch.io
+{{< /button >}}
 
-{{< /columns >}}
+</div>
+</div>
 
+<br>
 
-{{< columns >}}
+<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
+    <div style="float: left; width: 100%; max-width: 300px; min-width: 200px; margin-left: 20px">
 
-# About the Project
+# Project Info
 
 | |  |
 | -----------	| -------------------------	|
@@ -40,31 +49,33 @@ Do cool combos, use special philosophy-inspired moves, and send opponents flying
 | Team Size		| 15						|
 | Timeline		| Aug 2025 - Ongoing		|
 | Technology	| Unity, C#, HLSL			|
-
-* Built using Scrum and Agile methodologies
-* Pitched to Champlain College faculty, chosen to be "Greenlit" and continue development
-
-My contributions
+</div>
+<div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+    
+# My contributions
 
 * Programming core systems, tools, establishing pipelines for them
 * Creating documentation for onboarding new members
 * As Scrum Master, facilitated meetings and productivity
 
-<--->
 
-<iframe frameborder="0" src="https://itch.io/embed/4274440?border_width=0&amp;dark=true" width="550" height="165"><a href="https://good-enouf-studios.itch.io/socratic-smackdown">Socratic Smackdown by Good Enouf Studios, vxheme, ZacharyKilmer</a></iframe>
+</div>
+</div>
 
-![SS Logo](logo-short-small-2.png)
+<br>
 
-{{< /columns >}}
+<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
+    <div style="float: left; width: 100%; max-width: 500px; min-width: 200px; margin-left: 20px">
 
-{{< columns >}}
-<--->
+{{< carousel images="carousel-2/*" aspectRatio="16-9" interval="2500" >}}
 
-# Attack System & Editor
+</div>
+<div style="float: right; width: 100%; max-width: 400px; min-width: 200px; margin-left: 20px">
+
+# Attack System Editor
 - System for handling attacks, their properties, and effects
 - Can be edited and visualized in runtime, allowing for quick creation & iteration by designers
 - Expandable by attaching unique scripts for special attacks
-{{< /columns >}}
 
-{{< carousel images="carousel-2/*" aspectRatio="16-9" interval="2500" >}}
+</div>
+</div>
