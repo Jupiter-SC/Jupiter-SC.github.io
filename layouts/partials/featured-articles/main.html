@@ -4,7 +4,7 @@
   {{ if index .Site.Params.homepage "showfeaturedItems" }}
     {{ $featuredArticles = .Site.Params.homepage.showfeaturedItems }}
   {{ end }}
-  <h2 class="mt-8 text-2xl font-extrabold mb-10"> ✨ Featured ✨</h2>
+  <h2 class="w-card mt-8 text-2xl font-extrabold mb-10"> ✨ Featured ✨</h2>
 
   {{ if and .Site.Params.homepage.cardView (not .Site.Params.homepage.cardViewScreenWidth) | default false }}
     {{ partial "featured-articles/cardview.html" . }}

@@ -17,8 +17,24 @@ html {
     font-family: Lexend;
 }
 
+.max-w-7xl {
+    max-width: 1600px
+}
+
 .max-w-prose{
-    max-width: 1200px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.max-w-full{
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w-card {
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
 }

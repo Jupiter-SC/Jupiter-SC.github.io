@@ -38,8 +38,6 @@ showScrollToTop = true
 
 [homepage]
 layout = "better-background"
-showRecent = true
-showRecentItems = 3
 
 # Now also applied to featured
 showMoreLink = true
@@ -48,13 +46,14 @@ cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = true
 disableHeroImageFilter = true
-homepageImage = "/Preview_Gerstner_Waves.gif"
+homepageImage = "Preview_Gerstner_Waves.gif"
 
 # Custom featured articles
 showfeatured = true
 showfeaturedItems = 3
 
 [article]
+layout = "single"
 showDate = false
 showViews = false
 showLikes = false

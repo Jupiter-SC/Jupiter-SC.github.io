@@ -11,10 +11,10 @@ featured: true
 ---
 
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+    <div style="float: left; width: 100%; max-width: 900px; min-width: 200px">
 
 ![Image](feature.gif)
-
+     
 </div>
     <div style="float: right; width: 100%; max-width: 300px; min-width: 200px; margin-left: 20px">
 
@@ -26,14 +26,14 @@ featured: true
 | Timeline		| Nov 2023 -  Dec 2023	|
 | Technology	| C++, OpenGL, GLSL |
 
+
 </div>
 </div>
 
 <br>
 
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
-
+    <div style="float: left; width: 100%; max-width: 820px; min-width: 200px; margin-left: 20px">
 
 # Overview
 
@@ -44,7 +44,7 @@ featured: true
 * Read the [Wikipedia](https://en.wikipedia.org/wiki/Trochoidal_wave) page 
 
 </div>
-<div style="float: right; width: 100%; max-width: 300px; min-width: 200px; margin-left: 20px">
+<div style="float: right; width: 100%; max-width: 300px; min-width: 400px; margin-left: 20px">
     
 <div>
 {{< github repo="Jupiter-SC/GPR-200" >}}
@@ -56,7 +56,7 @@ featured: true
 <br>
 
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 500px; min-width: 200px; margin-left: 20px">
+    <div style="float: left; width: 100%; max-width: 800px; min-width: 200px; margin-left: 20px">
 
 {{< carousel images="images/*" aspectRatio="16-9" interval="2500" >}}
 

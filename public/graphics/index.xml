@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Graphics on Jupiter Sinclair Chong</title>
-    <link>https://joshua-s-c.github.io/site/graphics/</link>
+    <link>http://localhost:1313/site/graphics/</link>
     <description>Recent content in Graphics on Jupiter Sinclair Chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>youremail@example.com (Jupiter Sinclair Chong)</managingEditor>
     <webMaster>youremail@example.com (Jupiter Sinclair Chong)</webMaster>
     <copyright>© 2026 Jupiter Sinclair Chong</copyright>
-    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://joshua-s-c.github.io/site/graphics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/site/graphics/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Gerstner Waves</title>
-      <link>https://joshua-s-c.github.io/site/graphics/gerstner-waves/</link>
+      <link>http://localhost:1313/site/graphics/gerstner-waves/</link>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>https://joshua-s-c.github.io/site/graphics/gerstner-waves/</guid>
+      <guid>http://localhost:1313/site/graphics/gerstner-waves/</guid>
       <description>A water shader that simulates physically accurate waves using real math done by real smart people</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://joshua-s-c.github.io/site/graphics/gerstner-waves/feature1.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/graphics/gerstner-waves/feature1.gif" />
     </item>
     
     <item>
       <title>Callisto Engine</title>
-      <link>https://joshua-s-c.github.io/site/graphics/callisto-engine/</link>
+      <link>http://localhost:1313/site/graphics/callisto-engine/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>https://joshua-s-c.github.io/site/graphics/callisto-engine/</guid>
+      <guid>http://localhost:1313/site/graphics/callisto-engine/</guid>
       <description>Custom rendering engine used for my OpenGL projects. (Yes I named it after a moon of Jupiter)</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://joshua-s-c.github.io/site/graphics/callisto-engine/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/graphics/callisto-engine/feature.jpg" />
     </item>
     
     <item>
       <title>Volumetric Clouds</title>
-      <link>https://joshua-s-c.github.io/site/graphics/volumetric-clouds/</link>
+      <link>http://localhost:1313/site/graphics/volumetric-clouds/</link>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>https://joshua-s-c.github.io/site/graphics/volumetric-clouds/</guid>
+      <guid>http://localhost:1313/site/graphics/volumetric-clouds/</guid>
       <description>Volumetric clouds implemented as a post processing effect using ray marching.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://joshua-s-c.github.io/site/graphics/volumetric-clouds/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/graphics/volumetric-clouds/feature.png" />
     </item>
     
     <item>
       <title>Custom Animation System &amp; Character Controller in Unity</title>
-      <link>https://joshua-s-c.github.io/site/graphics/custom-unity-animation-system/</link>
+      <link>http://localhost:1313/site/graphics/custom-unity-animation-system/</link>
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>https://joshua-s-c.github.io/site/graphics/custom-unity-animation-system/</guid>
+      <guid>http://localhost:1313/site/graphics/custom-unity-animation-system/</guid>
       <description>We built a completely engine agnostic animation backend and hooked it up to Unity specifics.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://joshua-s-c.github.io/site/graphics/custom-unity-animation-system/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/graphics/custom-unity-animation-system/feature.png" />
     </item>
     
     <item>
       <title>Vulkan Renderer</title>
-      <link>https://joshua-s-c.github.io/site/graphics/vulkan-renderer/</link>
+      <link>http://localhost:1313/site/graphics/vulkan-renderer/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>https://joshua-s-c.github.io/site/graphics/vulkan-renderer/</guid>
+      <guid>http://localhost:1313/site/graphics/vulkan-renderer/</guid>
       <description>I&amp;rsquo;m learning Vulkan!</description>
       
     </item>
