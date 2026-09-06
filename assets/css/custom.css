@@ -38,3 +38,9 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
+
+.center-vid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

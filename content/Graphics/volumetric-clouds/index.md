@@ -12,7 +12,15 @@ type: "Graphics"
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
     <div style="float: left; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
 
-![Image](feature.png)
+{{< video
+  src="Clip-Volumetric-Clouds.mp4"
+  poster="feature.png"
+  caption="**Volumetric Clouds** - Clip from demo reel"
+  autoplay=true
+  controls=false
+  loop=true
+  muted=true
+>}}
 
 </div>
     <div style="float: right; width: 100%; max-width: 300px; min-width: 200px; margin-left: 20px">
