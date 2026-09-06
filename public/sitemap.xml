@@ -21,6 +21,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/site/games/starcatcher/</loc>
+    <lastmod>2026-09-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/site/tech-art/maya-voxelizer/</loc>
     <lastmod>2026-02-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -81,26 +87,26 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/graphics/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/site/games/</loc>
+    <lastmod>2026-09-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/site/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/site/tags/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/games/</loc>
-    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/site/graphics/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

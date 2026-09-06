@@ -7,7 +7,7 @@ catergories: ['Tech Art']
 tags: ['Houdini', 'Procedural Modeling']
 weight: 1
 type: "Tech Art"
-featured: true
+featured: false
 ---
 
 

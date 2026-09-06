@@ -9,7 +9,7 @@
       {{ if templates.Exists ( printf "partials/%s" $heroStyle ) }}
         {{ partial $heroStyle . }}
       {{ else }}
-        {{ partial "hero/basic.html" . }}
+        {{ partial "hero/custom-hero.html" . }}
       {{ end }}
     {{ end }}
 

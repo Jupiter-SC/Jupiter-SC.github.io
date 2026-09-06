@@ -13,6 +13,12 @@ parent = "Games"
 weight = 6
 
 [[main]]
+name = "Starcatcher"
+pageRef = "Games/starcatcher"
+parent = "Games"
+weight = 7
+
+[[main]]
 name = "Belgian Feather Bowling : On the Go!"
 pageRef = "Games/bfb"
 parent = "Games"

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shader Graph on Jupiter Sinclair Chong</title>
+    <link>http://localhost:1313/site/tags/shader-graph/</link>
+    <description>Recent content in Shader Graph on Jupiter Sinclair Chong</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>youremail@example.com (Jupiter Sinclair Chong)</managingEditor>
+    <webMaster>youremail@example.com (Jupiter Sinclair Chong)</webMaster>
+    <copyright>© 2026 Jupiter Sinclair Chong</copyright>
+    <lastBuildDate>Tue, 01 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/site/tags/shader-graph/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Starcatcher: Tech Art Breakdown</title>
+      <link>http://localhost:1313/site/games/starcatcher/</link>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
+      <guid>http://localhost:1313/site/games/starcatcher/</guid>
+      <description>I worked as a Graphics Programmer / Tech Artist and got to do some cool things. This page is WIP</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/starcatcher/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
