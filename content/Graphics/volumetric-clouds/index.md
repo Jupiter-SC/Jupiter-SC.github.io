@@ -14,7 +14,6 @@ type: "Graphics"
 
 {{< video
   src="Clip-Volumetric-Clouds.mp4"
-  poster="feature.png"
   caption="**Volumetric Clouds** - Clip from demo reel"
   autoplay=true
   controls=false

@@ -42,9 +42,9 @@ We ended up ranked #4 in Graphics, #5 in Polish, and #7 in Innovation!
 
   </div>
   <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
-
-<iframe frameborder="0" src="https://itch.io/embed/4792848?bg_color=222222&amp;fg_color=eeeeee&amp;link_color=fadb5b&amp;border_color=363636" width="552" height="167"><a href="https://masoncrochetiere.itch.io/star-catcher">STARCATCHER by Mason Crochetiere, Brandon Bell, Jupiter SC, trashedtomato</a></iframe>
-  </div>
+    <div class="iframe-wrapper">
+      <iframe id="responsive-iframe" src="https://itch.io/embed/4792848?bg_color=222222&amp;fg_color=eeeeee&amp;link_color=fadb5b&amp;border_color=363636"></iframe>
+    </div>
 </div>
 <br>
 
@@ -53,7 +53,6 @@ We ended up ranked #4 in Graphics, #5 in Polish, and #7 in Innovation!
 <br>
 
 # My Role
-
 * As a Graphics Programmer / Technical Artist, I used my unique background in Programming and Art to program shaders and tools to further the visuals of our game
 
 * I did this by collaborating with the team specifically with artist Brandon (linked in Itch page) to define an art direction

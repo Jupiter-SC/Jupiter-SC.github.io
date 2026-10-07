@@ -98,7 +98,7 @@
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/graphics/volumetric-clouds/</guid>
       <description>Volumetric clouds implemented as a post processing effect using ray marching.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/graphics/volumetric-clouds/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/graphics/volumetric-clouds/feature.gif" />
     </item>
     
     <item>

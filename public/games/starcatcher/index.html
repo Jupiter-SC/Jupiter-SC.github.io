@@ -119,8 +119,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/site/css/main.bundle.min.445008521878292324331a0d162b27d37bd201a19cb0dd5be4a6f56a9a852b080a4513e93b94867987279f09cc816254392345fa7b8e0254ba20a1a8600cb3ee.css"
-    integrity="sha512-RFAIUhh4KSMkMxoNFisn03vSAaGcsN1b5Kb1apqFKwgKRRPpO5SGeYcnnwnMgWJUOSNF&#43;nuOAlS6IKGoYAyz7g==">
+    href="/site/css/main.bundle.min.712577326526d8fadfb5f698568550918b47294c6bea532dbd91bda39e51756e4e6509c2303729c85c4147f6677fbb3b008ff44382cace98d88ffefdc97f40f9.css"
+    integrity="sha512-cSV3MmUm2PrftfaYVoVQkYtHKUxr6lMtvZG9o55RdW5OZQnCMDcpyFxBR/Znf7s7AI/0Q4LKzpjYj/79yX9A&#43;Q==">
 
   
   
@@ -244,7 +244,7 @@
     "keywords": ["WIP","Unity","C#","HLSL","Shader Graph"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "527"
+    "wordCount": "518"
   }]
   </script>
 
@@ -1161,6 +1161,38 @@
 
 
 
+
+  
+  
+
+
+
+  
+    
+  
+    
+  
+    
+  
+
+
+
+
+  
+    
+    
+      
+      
+    
+  
+
+
+
+
+
+
+
+
   
   
     
@@ -1189,39 +1221,56 @@
 
 
 
-  <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom">
-    
-    
-    
+
+  <div class="overflow-hidden rounded-md h-36 md:h-56 lg:h-72 nozoom">
     <img
-      id="background-image"
       src="/site/games/starcatcher/featured_hu_e0ece2dc4f1a503e.png"
       role="presentation"
       loading="eager"
       decoding="async"
       fetchpriority="high"
-      class="absolute inset-0 w-full h-full object-cover"
+      class="w-full h-full nozoom object-cover"
       >
-    <div
-      class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal"></div>
-    <div
-      class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal"></div>
   </div>
 
+
+
+<div class="single_hero_background nozoom fixed inset-x-0 top-0 h-[800px]">
   
-    <div
-      id="background-blur"
-      class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-xl bg-neutral-100/75 dark:bg-neutral-800/60"></div>
     
     
-    <script
-      type="text/javascript"
-      src="/site/js/background-blur.min.605b3b942818f0ab5a717ae446135ec46b8ee5a2ad12ae56fb90dc2a76ce30c388f9fec8bcc18db15bd47e3fa8a09d779fa12aa9c184cf614a315bc72c6c163d.js"
-      integrity="sha512-YFs7lCgY8KtacXrkRhNexGuO5aKtEq5W&#43;5DcKnbOMMOI&#43;f7IvMGNsVvUfj&#43;ooJ13n6EqqcGEz2FKMVvHLGwWPQ=="
-      data-blur-id="background-blur"
-      data-image-id="background-image"
-      data-image-url="/site/games/starcatcher/featured_hu_e0ece2dc4f1a503e.png"></script>
+    
+    <img
+      id="background-image-main"
+      src="/site/games/starcatcher/featured_hu_e0ece2dc4f1a503e.png"
+      role="presentation"
+      loading="eager"
+      decoding="async"
+      fetchpriority="high"
+      class="absolute inset-0 h-full w-full object-cover"
+      >
   
+  <div
+    class="from-neutral absolute inset-0 bg-gradient-to-t to-transparent mix-blend-normal dark:from-neutral-800"></div>
+  <div
+    class="from-neutral to-neutral absolute inset-0 bg-gradient-to-t opacity-30 mix-blend-normal dark:from-neutral-800 dark:to-neutral-800 dark:opacity-60"></div>
+</div>
+
+
+  <div
+    id="background-blur"
+    class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-xl bg-neutral-100/75 dark:bg-neutral-800/60"></div>
+  
+  
+  <script
+    type="text/javascript"
+    src="/site/js/background-blur.min.605b3b942818f0ab5a717ae446135ec46b8ee5a2ad12ae56fb90dc2a76ce30c388f9fec8bcc18db15bd47e3fa8a09d779fa12aa9c184cf614a315bc72c6c163d.js"
+    integrity="sha512-YFs7lCgY8KtacXrkRhNexGuO5aKtEq5W&#43;5DcKnbOMMOI&#43;f7IvMGNsVvUfj&#43;ooJ13n6EqqcGEz2FKMVvHLGwWPQ=="
+    data-blur-id="background-blur"
+    data-image-id="background-image-main"
+    data-image-url="/site/games/starcatcher/featured.png"></script>
+
+
       
     
 
@@ -1421,8 +1470,9 @@
 <p>We ended up ranked #4 in Graphics, #5 in Polish, and #7 in Innovation!</p>
   </div>
   <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
-<iframe frameborder="0" src="https://itch.io/embed/4792848?bg_color=222222&amp;fg_color=eeeeee&amp;link_color=fadb5b&amp;border_color=363636" width="552" height="167"><a href="https://masoncrochetiere.itch.io/star-catcher">STARCATCHER by Mason Crochetiere, Brandon Bell, Jupiter SC, trashedtomato</a></iframe>
-  </div>
+    <div class="iframe-wrapper">
+      <iframe id="responsive-iframe" src="https://itch.io/embed/4792848?bg_color=222222&amp;fg_color=eeeeee&amp;link_color=fadb5b&amp;border_color=363636"></iframe>
+    </div>
 </div>
 <br>
 <!-- Role / Problem Statement -->
