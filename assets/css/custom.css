@@ -144,9 +144,15 @@ html {
     align-items: center;
 }
 
-.center-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+/* Other Grids */
+.devicon-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.devicon-container div {
+    padding: 10px;
+    font-size: 30px;
+    text-align: left;
 }

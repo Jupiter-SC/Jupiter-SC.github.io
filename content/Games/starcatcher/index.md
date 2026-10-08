@@ -1,5 +1,5 @@
 ---
-title: "(WIP) Starcatcher: Tech Art Breakdown"
+title: "Starcatcher: Tech Art Breakdown"
 summary:  'I worked as a Graphics Programmer / Tech Artist and got to do some cool things. This page is WIP'
 weight: 2
 

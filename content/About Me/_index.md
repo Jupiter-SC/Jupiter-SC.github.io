@@ -25,25 +25,25 @@ Presently a senior in College studying Game Programming with a minor in 3D Anima
 
 <div>
 
-{{< dev_icon "cplusplus-original" >}}
-{{< dev_icon "csharp-original" >}}
-{{< dev_icon "c-original" >}}
 
 
-{{< dev_icon "java-original" >}}
-{{< dev_icon "python-original" >}}
-
-{{< dev_icon "opengl-original" >}}
-{{< dev_icon "vulkan-original" >}}
-
-{{< dev_icon "unity-original" >}}
-{{< dev_icon "unrealengine-original" >}}
-{{< dev_icon "godot-original" >}}
-
-{{< dev_icon "blender-original" >}}
-{{< dev_icon "houdini_badge_flat" >}}
-{{< dev_icon "maya-original" >}}
-
+<div class="devicon-container">
+  <div>{{< dev_icon "cplusplus-original" "C++">}}</div>
+  <div>{{< dev_icon "csharp-original"    "C#">}}</div>
+  <div>{{< dev_icon "c-original"         "C">}}</div>
+  <div>{{< dev_icon "java-original"      "Java">}}</div>
+  <div>{{< dev_icon "python-original"    "Python">}}</div>
+  <div></div>
+  <div>{{< dev_icon "opengl-original"    "OpenGL" >}}</div>
+  <div>{{< dev_icon "vulkan-original"    "Vulkan">}}</div>
+  <div></div>
+  <div>{{< dev_icon "unity-original"     "Unity">}}</div>
+  <div>{{< dev_icon "unrealengine-original"  "Unreal Engine" >}}</div>
+  <div>{{< dev_icon "godot-original"     "Godot" >}}</div>
+  <div>{{< dev_icon "blender-original"   "Blender" >}}</div>
+  <div>{{< dev_icon "houdini_badge_flat" "Houdini" >}}</div>
+  <div>{{< dev_icon "maya-original"      "Maya" >}}</div>
+</div>
 
 {{< columns >}}
 
