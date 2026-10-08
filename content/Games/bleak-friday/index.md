@@ -2,13 +2,18 @@
 title: 'Bleak Friday'
 date: '2026-02-02'
 draft: false
-summary: "A 2D action game that puts the player in the role of a retail cashier on Black Friday
-It features frantic point and click gameplay, a large amount of variety, and hilarious items"
+summary: "A 2D action game that puts the player in the role of a retail cashier on Black Friday It features frantic point and click gameplay, a large amount of variety, and hilarious items"
+
 catergories: ['Games']
-tags: ['Unity', 'C#']
 weight: 5
 type: "Games"
 
+# Header Info
+tags: ['Unity', 'C#']
+params:
+  projectRole: "Sole Programmer & Producer"
+  projectSize: "4"
+  projectTimeline: "Feb - March 2024"
 ---
 
 
@@ -32,13 +37,6 @@ It features frantic point and click gameplay, a large amount of variety, and hil
 {{< columns >}}
 
 # About the Project
-
-| |  |
-| -----------	| -------------------------	|
-| Roles			| Sole Programmer & Producer |
-| Team Size		| 4						|
-| Timeline		| Feb 2024 - March 2024|
-| Technology	| Unity, C# |
 
 * Applied Scrum and Agile methodologies
 * Created game pitch presentation

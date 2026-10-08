@@ -4,32 +4,21 @@ date: 2026-02-05
 draft: false
 summary: "A water shader that simulates physically accurate waves using real math done by real smart people"
 catergories: ['Graphics']
-tags: ['C++', 'OpenGL', 'Callisto Engine']
 weight: 1
 type: "Graphics"
 featured: true
----
 
-<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 900px; min-width: 200px">
+# Header Info
+tags: ['C++', 'OpenGL', 'Callisto Engine']
+params:
+  projectRole: "Graphics Programmer"
+  projectSize: "Solo"
+  projectTimeline: "Nov - Dec 2023"
+  noLogo: false
+---
 
 ![Image](feature.gif)
      
-</div>
-    <div style="float: right; width: 100%; max-width: 300px; min-width: 200px; margin-left: 20px">
-
-# Info
-| |  |
-| -----------	| -------------------------	|
-| Roles			| Programmer	|
-| Team Size		| Solo				|
-| Timeline		| Nov 2023 -  Dec 2023	|
-| Technology	| C++, OpenGL, GLSL |
-
-
-</div>
-</div>
-
 <br>
 
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">

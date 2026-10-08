@@ -49,7 +49,7 @@ html {
     align-items: center;
 }
 
-/* iFrame Scalig (itch, youtube) */
+/* iFrame Scaling (itch, youtube) */
 
 .iframe-wrapper {
     position: relative;
@@ -142,4 +142,11 @@ html {
 .tag-container-center {
     justify-content: center;
     align-items: center;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }

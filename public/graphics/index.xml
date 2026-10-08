@@ -51,15 +51,5 @@
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/graphics/custom-unity-animation-system/feature.png" />
     </item>
     
-    <item>
-      <title>Vulkan Renderer</title>
-      <link>http://localhost:1313/site/graphics/vulkan-renderer/</link>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>http://localhost:1313/site/graphics/vulkan-renderer/</guid>
-      <description>I&amp;rsquo;m learning Vulkan!</description>
-      
-    </item>
-    
   </channel>
 </rss>

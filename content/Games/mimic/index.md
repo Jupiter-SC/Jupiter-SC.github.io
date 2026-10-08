@@ -6,7 +6,7 @@ weight: 2
 date: 2026-09-01
 
 # Organization Stuff
-draft: false
+draft: true
 type: "Games"
 catergories: ['Games']
 featured: false

@@ -4,9 +4,15 @@ date: 2026-02-02
 draft: false
 summary:  'Custom rendering engine used for my OpenGL projects. (Yes I named it after a moon of Jupiter)'
 catergories: ['Graphics']
-tags: ['C++', 'OpenGL', 'Callisto Engine', 'Engine']
 weight: 2
 type: "Graphics"
+
+# Header Info
+tags: ['C++', 'OpenGL', 'Callisto Engine', 'Engine']
+params:
+  projectRole: "Engine Programmer"
+  projectSize: "Solo"
+  projectTimeline: "2023 - Ongoing!"
 ---
 
 {{< columns >}}
@@ -31,14 +37,6 @@ Features:
 
 
 {{< columns >}}
-
-# About the Process
-| |  |
-| -----------	| -------------------------	|
-| Roles			| Programmer	|
-| Team Size		| Solo				|
-| Timeline		| Ongoing!		|
-| Technology	| C++, OpenGL |
 
 <--->
 

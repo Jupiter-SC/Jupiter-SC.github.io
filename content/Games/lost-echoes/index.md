@@ -1,7 +1,7 @@
 ---
 title: 'Lost Echoes'
 date: '2026-02-04'
-draft: false
+draft: true
 summary: "A story driven sci-fi thriller which immerses the player in the confines of a research spaceship stuck in a time loop."
 catergories: ['Games']
 tags: ['Unity', 'C#']
@@ -18,7 +18,7 @@ type: "Games"
 
 # About the Game
 
-Lost Echoes is a story driven sci-fi thriller which immerses the player in the confines of a research spaceship stuck in a time loop. With most of the crew dead the player makes contact with the ship’s mechanic via radio. They only have each other as they work to escape the ship. 
+Lost Echoes is a story driven sci-fi thriller which immerses the player in the confines of a research spaceship stuck in a time loop. With most of the crew dead the player makes contact with the shipï¿½s mechanic via radio. They only have each other as they work to escape the ship. 
 
 Itch.io upload coming soon!
 

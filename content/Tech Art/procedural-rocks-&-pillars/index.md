@@ -4,10 +4,16 @@ date: 2026-02-04
 draft: false
 summary: "Two procedural assets built with Houdini, used for rapid creation, iteration, and variety"
 catergories: ['Tech Art']
-tags: ['Houdini', 'Procedural Modeling']
 weight: 1
 type: "Tech Art"
 featured: false
+
+# Header Info
+tags: ['Houdini', 'Procedural Modeling']
+params:
+  projectRole: "Tech Artist"
+  projectSize: "Solo"
+  projectTimeline: "Weekend, 2026"
 ---
 
 

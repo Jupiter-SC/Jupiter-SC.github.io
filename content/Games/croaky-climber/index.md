@@ -4,10 +4,15 @@ date: 2026-02-05
 draft: false
 summary: "A 2D platformer where the hero can't jump and moves by grappling with his tongue"
 catergories: ['Games']
-tags: ['Game Maker Studio 2', 'GML']
 weight: 3
 type: "Games"
 
+# Header Info
+tags: ['Game Maker Studio 2', 'GML']
+params:
+  projectRole: "Sole Programmer & Designer"
+  projectSize: "3"
+  projectTimeline: "Winter 2021 - Spring 2022"
 ---
 
 {{< columns >}}
@@ -30,13 +35,6 @@ Play through 4 main levels with varying gimmicks, aesthetics, and difficulty
 {{< columns >}}
 
 # About the Project
-
-| |  |
-| -----------	| -------------------------	|
-| Roles			| Sole Programmer & Designer |
-| Team Size		| 2						|
-| Timeline		| Winter 2021 - Spring 2022 |
-| Technology	| Game Maker Studio, Muse Score (music), Kdenlive (video editing) |
 
 * Submitted and won 1st place for NY Skills USA Game Design Competition
 * Applied Scrum and Agile methodologies

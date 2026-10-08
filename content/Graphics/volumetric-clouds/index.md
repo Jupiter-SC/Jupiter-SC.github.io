@@ -4,13 +4,16 @@ date: 2026-02-03
 draft: false
 summary: "Volumetric clouds implemented as a post processing effect using ray marching."
 catergories: ['Graphics']
-tags: ['C#','Unity', 'Unity URP', 'HLSL']
 weight: 3
 type: "Graphics"
----
 
-<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+# Header Info
+tags: ['C#','Unity', 'HLSL']
+params:
+  projectRole: "Graphics Programmer"
+  projectSize: "Solo"
+  projectTimeline: "Apr 2025"
+---
 
 {{< video
   src="Clip-Volumetric-Clouds.mp4"
@@ -20,20 +23,6 @@ type: "Graphics"
   loop=true
   muted=true
 >}}
-
-</div>
-    <div style="float: right; width: 100%; max-width: 300px; min-width: 200px; margin-left: 20px">
-
-# Info
-| |  |
-| -----------	| -------------------------	|
-| Roles			| Programmer	|
-| Team Size		| Solo				|
-| Timeline		| April 2025 |
-| Technology	| Unity, C#, HLSL |
-
-</div>
-</div>
 
 <br>
 

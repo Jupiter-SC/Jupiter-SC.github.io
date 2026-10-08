@@ -36,11 +36,11 @@ pageRef = "Games/croaky-climber"
 parent = "Games"
 weight = 10
 
-[[main]]
-name = "Lost Echoes"
-pageRef = "Games/lost-echoes"
-parent = "Games"
-weight = 11
+#[[main]]
+#name = "Lost Echoes"
+#pageRef = "Games/lost-echoes"
+#parent = "Games"
+#weight = 11
 
 [[main]]
 name = "Bleak Friday"

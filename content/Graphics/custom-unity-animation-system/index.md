@@ -8,30 +8,25 @@ date: 2026-02-10
 draft: false
 
 type: "Graphics"
-tags: ['C#', 'Unity', 'Animation Programming']
 catergories: ['Graphics']
+
+# Header Info
+tags: ['C#', 'Unity', 'Animation Programming']
+params:
+  projectRole: "Programmer"
+  projectSize: "3"
+  projectTimeline: "Dec 2025"
 ---
 
 {{< columns >}}
-
-![Logo](Logo.png)
-
-need to actually put videos / gifs
-
-# About the Process
-| |  |
-| -----------	| -------------------------	|
-| Roles			| Programmer	|
-| Team Size		| 3 |
-| Timeline		| Dec 2025|
-| Technology	| Unity, C# |
-
-<--->
 
 # Overview
 * Built fully usable animation pipeline and engine agnostic animation system
 * Built a Unity Bridge to translate this information to Unity objects / components
 * Used the system to make a character controller to move, jump, dance, pick up a box, and look at objects
+
+<--->
+
 * Features:
 	* Keyframes, Clips, and Controller
 	* Loading Skeletons & Animations

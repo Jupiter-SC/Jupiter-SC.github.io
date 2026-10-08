@@ -16,6 +16,7 @@ params:
   projectRole: "Character Programmer, Scrum Master"
   projectSize: "15"
   projectTimeline: "Aug 2025 - May 2026"
+  featureimage: "hero-logo.png"
 ---
 
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">

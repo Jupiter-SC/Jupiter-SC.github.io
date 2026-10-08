@@ -4,17 +4,21 @@ date: 2026-02-01
 draft: false
 summary: 'A 3D, educational recreation of the sport Belgian Feather Bowling for Web and Mobile'
 catergories: ['Games']
-tags: ['Unity', 'C#']
 weight: 2
 type: "Games"
 
+# Header Info
+tags: ['Unity', 'C#']
+params:
+  projectRole: "Sole Programmer & Scrum Master"
+  projectSize: "5"
+  projectTimeline: "Mar - May 2024"
 ---
 
 {{< columns >}}
 
 
 ![Logo](Logo.png)
-
 
 
 <--->
@@ -49,17 +53,9 @@ Unlockables
 
 # About the Project
 
-| |  |
-| -----------	| -------------------------	|
-| Roles			| Sole Programmer & Scrum Master	|
-| Team Size		| 5						|
-| Timeline		| Mar 2024 - May 2024 |
-| Technology	| Unity, C# |
-
 * Built using Scrum and Agile methodologies
 * Created game pitch presentation
 * Tested the game with kids (they loved it!)
-
 
 My contributions
 

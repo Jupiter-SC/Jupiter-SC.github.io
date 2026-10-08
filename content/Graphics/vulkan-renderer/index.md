@@ -1,12 +1,18 @@
 ---
 title: 'Vulkan Renderer'
 date: '2026-02-01'
-draft: false
+draft: true
 summary: "I'm learning Vulkan!"
 catergories: ['Graphics']
-tags: ['C++', 'Vulkan']
 weight: 5
 type: "Graphics"
+
+# Header Info
+tags: ['C++', 'Vulkan']
+params:
+  projectRole: "Programmer"
+  projectSize: "Solo"
+  projectTimeline: "2026 - Ongoing!"
 ---
 
 {{< columns >}}
@@ -25,12 +31,6 @@ More info to be added!
 {{< columns >}}
 
 # About the Process
-| |  |
-| -----------	| -------------------------	|
-| Roles			| Programmer	|
-| Team Size		| Solo				|
-| Timeline		| Jan 2026 - Ongoing		|
-| Technology	| C++, Vulkan |
 
 <--->
 

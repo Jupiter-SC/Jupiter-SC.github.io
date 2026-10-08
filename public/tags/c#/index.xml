@@ -22,17 +22,7 @@
     </item>
     
     <item>
-      <title>[TODO] Mimic: Tech Art Breakdown</title>
-      <link>http://localhost:1313/site/games/mimic/</link>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>http://localhost:1313/site/games/mimic/</guid>
-      <description>Summary</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/mimic/feature.png" />
-    </item>
-    
-    <item>
-      <title>Starcatcher: Tech Art Breakdown</title>
+      <title>(WIP) Starcatcher: Tech Art Breakdown</title>
       <link>http://localhost:1313/site/games/starcatcher/</link>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
@@ -72,22 +62,12 @@
     </item>
     
     <item>
-      <title>Lost Echoes</title>
-      <link>http://localhost:1313/site/games/lost-echoes/</link>
-      <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
-      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>http://localhost:1313/site/games/lost-echoes/</guid>
-      <description>A story driven sci-fi thriller which immerses the player in the confines of a research spaceship stuck in a time loop.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/lost-echoes/feature.png" />
-    </item>
-    
-    <item>
       <title>Bleak Friday</title>
       <link>http://localhost:1313/site/games/bleak-friday/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
       <guid>http://localhost:1313/site/games/bleak-friday/</guid>
-      <description>A 2D action game that puts the player in the role of a retail cashier on Black Friday&#xA;It features frantic point and click gameplay, a large amount of variety, and hilarious items</description>
+      <description>A 2D action game that puts the player in the role of a retail cashier on Black Friday It features frantic point and click gameplay, a large amount of variety, and hilarious items</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/bleak-friday/feature.png" />
     </item>
     

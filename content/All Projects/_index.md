@@ -1,6 +1,5 @@
 ---
 title: "All Projects"
-layout: "single"
 cascade:
   showReadingTime: false
   showWordCount: false
