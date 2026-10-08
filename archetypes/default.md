@@ -1,15 +1,21 @@
 ---
+# Built In
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 summary: "Summary here!"
 weight: 100
-
 date: '{{ .Date }}'
 
+# Organization Stuff
 draft: false
-
 type: "TODO: Type"
-tags: ['TODO: Tag']
 catergories: ['TODO: Catergory']
+
+# Header Info
+tags: ['WIP']
+params:
+  projectRole: "[Role]"
+  projectSize: "[Size]"
+  projectTimeline: "[Timeline]"
 ---
 
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">

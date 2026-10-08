@@ -1,3 +1,5 @@
+/* Fonts */
+
 @font-face {
     font-family: Lexend;
     src: url('../fonts/Lexend-VariableFont_wght.ttf');
@@ -16,6 +18,8 @@
 html {
     font-family: Lexend;
 }
+
+/* General Spacing */
 
 .max-w-7xl {
     max-width: 1600px
@@ -45,6 +49,8 @@ html {
     align-items: center;
 }
 
+/* iFrame Scalig (itch, youtube) */
+
 .iframe-wrapper {
     position: relative;
     width: 100%;
@@ -62,4 +68,78 @@ html {
     width: 100%;
     height: 100%;
     border: none;
+}
+
+/* Hero Information */
+
+.hero-info {
+    background-color: #ffffff0d;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    min-height: 150px;
+    max-height: 250px;
+    border-top: 2px solid #007bd3;
+    border-bottom: 2px solid #007bd3;
+    box-sizing: inherit;
+}
+
+.center,
+.center-align {
+    text-align: center;
+}
+
+.hero-info-container {
+    width: 100%;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    max-width: 1280px;
+}
+
+.hero-info-container .row {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.row .col.s6 {
+    width: 50%;
+    margin-left: 0;
+}
+
+.row .col {
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0.75rem;
+}
+
+.hero-info-title {
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hero-info-detail {
+    font-weight: 500;
+    color: #afafaf;
+    font-size: 1.1rem;
+}
+
+.tag-container-center {
+    justify-content: center;
+    align-items: center;
 }

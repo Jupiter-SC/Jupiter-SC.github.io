@@ -8,8 +8,14 @@ date: 2026-02-06
 draft: false
 type: "Games"
 catergories: ['Games']
-tags: ['Unity', 'C#', 'HLSL']
 featured: true
+
+# Header Info
+tags: ['Unity', 'C#', 'HLSL']
+params:
+  projectRole: "Character Programmer, Scrum Master"
+  projectSize: "15"
+  projectTimeline: "Aug 2025 - May 2026"
 ---
 
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
@@ -28,37 +34,22 @@ Socratic Smackdown is a 2.5D platform fighter where you play as animalized versi
 
 Do cool combos, use special philosophy-inspired moves, and send opponents flying off the stage in a fun-for-all fighting game experience!
 
-<iframe frameborder="0" src="https://itch.io/embed/4274440?border_width=0&amp;bg_color=222222&amp;fg_color=eeeeee&amp;link_color=eccf91&amp;border_color=222222" width="550" height="165"><a href="https://good-enouf-studios.itch.io/socratic-smackdown">Socratic Smackdown by Good Enouf Studios, Jupiter SC, ZacharyKilmer, DesertDuck11, spareuidesigner</a></iframe>
 
+<div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+  <div class="iframe-wrapper">
+    <iframe id="responsive-iframe" src="https://itch.io/embed/4274440?border_width=0&amp;bg_color=222222&amp;fg_color=eeeeee&amp;link_color=eccf91&amp;border_color=222222"></iframe>
+  </div>
+</div>
 </div>
 </div>
 
 <br>
 
-<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 300px; min-width: 200px; margin-left: 20px">
-
-# Project Info
-
-| |  |
-| -----------	| -------------------------	|
-| Roles			| Programmer & Scrum Master	|
-| Team Size		| 15						|
-| Timeline		| Aug 2025 - Ongoing		|
-| Technology	| Unity, C#, HLSL			|
-
-</div>
-<div style="float: right; width: 100%; max-width: 800px; min-width: 200px; margin-left: 20px">
-    
 # My contributions
 
 * Programming core systems, tools, establishing pipelines for them
 * Creating documentation for onboarding new members
 * As Scrum Master, facilitated meetings and productivity
-
-
-</div>
-</div>
 
 <br>
 

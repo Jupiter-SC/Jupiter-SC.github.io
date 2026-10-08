@@ -19,6 +19,12 @@ parent = "Games"
 weight = 7
 
 [[main]]
+name = "Mimic"
+pageRef = "Games/mimic"
+parent = "Games"
+weight = 8
+
+[[main]]
 name = "Belgian Feather Bowling : On the Go!"
 pageRef = "Games/bfb"
 parent = "Games"

@@ -12,6 +12,7 @@
         {{ partial "hero/custom-hero.html" . }}
       {{ end }}
     {{ end }}
+    
 
     {{/* Header */}}
     <header id="single_header" class="mt-5 max-w-full">
@@ -22,7 +23,7 @@
         {{ .Title | emojify }}
       </h1>
       <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
-        {{ partial "article-meta/basic.html" (dict "context" . "scope" "single") }}
+        {{ partial "article-custom/basic.html" (dict "context" . "scope" "single") }}
       </div>
       {{ if not (.Params.showAuthorBottom | default (site.Params.article.showAuthorBottom | default false)) }}
         {{ template "SingleAuthor" . }}

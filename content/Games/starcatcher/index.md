@@ -1,5 +1,5 @@
 ---
-title: "Starcatcher: Tech Art Breakdown"
+title: "(WIP) Starcatcher: Tech Art Breakdown"
 summary:  'I worked as a Graphics Programmer / Tech Artist and got to do some cool things. This page is WIP'
 weight: 2
 
@@ -8,14 +8,15 @@ date: 2026-09-01
 draft: false
 type: "Games"
 catergories: ['Games']
-tags: ['WIP', 'Unity', 'C#', 'HLSL', 'Shader Graph']
 featured: true
+
+# Header Info
+tags: ['Unity', 'C#', 'HLSL', 'Shader Graph']
+params:
+  projectRole: "Graphics Programmer / Tech Artist"
+  projectSize: "4"
+  projectTimeline: "Weekend, 2026"
 ---
-
-<!-- TODO update hero.html or make a shortcode for project information at the top -->
-
-If you're reading this, this page is WIP. Congrats you get to see it being half done. You can message / email me via LinkedIn if you want more details this page is finished.
-
 {{< video
   src="Clip_Turnaround_Small.mp4"
   poster="feature.png"
@@ -41,10 +42,12 @@ Our submission to this summer's MelonJam 2026 is STARCATCHER, an action movement
 We ended up ranked #4 in Graphics, #5 in Polish, and #7 in Innovation!
 
   </div>
+
   <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
     <div class="iframe-wrapper">
       <iframe id="responsive-iframe" src="https://itch.io/embed/4792848?bg_color=222222&amp;fg_color=eeeeee&amp;link_color=fadb5b&amp;border_color=363636"></iframe>
     </div>
+  </div>
 </div>
 <br>
 

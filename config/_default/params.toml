@@ -61,7 +61,7 @@ showDateOnlyInArticle = false
 showDateUpdated = false
 showAuthor = false
 showHero = true
-heroStyle = "thumbAndBackground"
+heroStyle = "custom-hero"
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = false
 showBreadcrumbs = false
@@ -79,6 +79,11 @@ showCategoryOnly = false
 showAuthorsBadges = false
 showWordCount = false
 showZenMode = false
+
+# Custom Header Stuff (Tags are also shown here)
+projectRole = "[Role]"
+projectSize = "[TeamSize]"
+projectTimeline = "[Timeline]"
 
 [list]
 showHero = true
