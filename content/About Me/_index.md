@@ -8,11 +8,13 @@ cascade:
 {{< columns >}}
 
 # Hi
-Bonjour, my name is Jupiter; basically I like to write code to make games, pretty pictures, or help people work faster!
+Bonjour, my name is Jupiter, I'm a Graphics Programmer and Technical Artist.
+
+Basically I like to write code to make games, pretty pictures, or help people work faster!
 
 I also very much enjoy teaching.
 
-Presently a senior in College studying Game Programming with a minor in 3D Animation.
+Graduated from Champlain College, majoring in Game Programming with a minor in 3D Animation.
 
 <--->
 
@@ -21,29 +23,27 @@ Presently a senior in College studying Game Programming with a minor in 3D Anima
 
 {{< /columns >}}
 
+<!-- TODO Make dev icon repo public and add as submodule  -->
 # Software
 
-<div>
-
-
-
 <div class="devicon-container">
-  <div>{{< dev_icon "cplusplus-original" "C++">}}</div>
-  <div>{{< dev_icon "csharp-original"    "C#">}}</div>
-  <div>{{< dev_icon "c-original"         "C">}}</div>
-  <div>{{< dev_icon "java-original"      "Java">}}</div>
-  <div>{{< dev_icon "python-original"    "Python">}}</div>
+  {{< dev_icon "C++"      "CPP - Outline" >}}
+  {{< dev_icon "C"        "C - Outline" >}}
+  {{< dev_icon "C#"       "CSharp - Outline" >}}
+  {{< dev_icon "Python"   "Python - Outline" >}}
+  {{< dev_icon "Java"     "Java - Outline" >}}
   <div></div>
-  <div>{{< dev_icon "opengl-original"    "OpenGL" >}}</div>
-  <div>{{< dev_icon "vulkan-original"    "Vulkan">}}</div>
-  <div></div>
-  <div>{{< dev_icon "unity-original"     "Unity">}}</div>
-  <div>{{< dev_icon "unrealengine-original"  "Unreal Engine" >}}</div>
-  <div>{{< dev_icon "godot-original"     "Godot" >}}</div>
-  <div>{{< dev_icon "blender-original"   "Blender" >}}</div>
-  <div>{{< dev_icon "houdini_badge_flat" "Houdini" >}}</div>
-  <div>{{< dev_icon "maya-original"      "Maya" >}}</div>
+  {{< dev_icon "OpenGL"   "OpenGL - Outline" >}}
+  {{< dev_icon "Vulkan"   "Vulkan - Outline" >}}
+  {{< dev_icon "Shader Graph"   "Shader - Outline" >}}
+  {{< dev_icon "Unity"    "Unity - Outline" >}}
+  {{< dev_icon "Unreal"   "Unreal - Outline" >}}
+  {{< dev_icon "Godot"    "Godot - Outline" >}}
+  {{< dev_icon "Blender"  "Blender - Outline" >}}
+  {{< dev_icon "Houdini"  "Houdini - Outline" >}}
+  {{< dev_icon "Maya"     "Maya - Outline" >}}
 </div>
+<br>
 
 {{< columns >}}
 

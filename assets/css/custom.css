@@ -152,7 +152,8 @@ html {
 }
 
 .devicon-container div {
-    padding: 10px;
     font-size: 30px;
     text-align: left;
+    max-height: 100px;
+    padding-bottom: 10px;
 }

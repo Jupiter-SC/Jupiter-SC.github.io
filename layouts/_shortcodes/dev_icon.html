@@ -1,19 +1,40 @@
 {{- /* Avoid extra whitespace */ -}}
 {{- /* https://discourse.gohugo.io/t/55399/5 */ -}}
+{{- /* Looks for PNG first, if not found uses SVG */ -}}
 
-{{ $icon := resources.Get (printf "icons/%s.svg" ($.Get 0)) -}}
-{{ $name := .Get 1 }}
+{{ $name := .Get 0 }}
+{{ $outline := .Get 2 }}
+{{ $icon := resources.Get (printf "icons/%s.png" ($.Get 1)) -}}
 
+{{- /* TODO Easier outline toggle or get image name from $name */ -}}
+
+<!-- 
+{{- if $outline -}}
+  {{ $icon := resources.Get (printf "icons/%s - Outlines.png" ($.Get 1)) -}}
+{{- end -}} 
+-->
 
 {{- if $icon -}}
-<span class="rounded-lg border-primary px-2 py-[1px]">
-  <span class="relative inline-block icon">
-    {{- strings.Replace $icon.Content "\n" "" | safeHTML -}}
-  </span>
-    {{ $name }}
-  </span>
+  <div>
+    <span class="rounded-lg border-primary px-2 py-[1px]">
+      {{ with $icon }}
+        <img class="relative inline-block icon" width="80" src="{{ .RelPermalink }}">
+      {{ end }}
+      {{ $name }}
+    </span>
+  </div>
 {{- else -}}
-  {{- errorf `icon shortcode: resource "%s" not found. Check the path is correct or remove the shortcode: %s` (printf "icons/%s.svg" ($.Get 0)) .Position -}}
+  {{ $icon := resources.Get (printf "icons/%s.svg" ($.Get 1)) -}}
+  {{- if $icon -}}
+    <div>
+      <span class="rounded-lg border-primary px-2 py-[1px]">
+        <span class="relative inline-block icon">
+          {{- strings.Replace $icon.Content "\n" "" | safeHTML -}}
+        </span>
+        {{ $name }}
+      </span>
+    </div>
+  {{- else -}}
+    {{- errorf `icon shortcode: resource "%s" not found. Check the path is correct or remove the shortcode: %s` (printf "icons/%s.png" ($.Get 0)) .Position -}}
+  {{- end -}}
 {{- end -}}
-
-
