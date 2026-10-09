@@ -2,7 +2,7 @@
 # Built In
 title: "[TODO] Mimic: Tech Art Breakdown"
 summary:  'Summary'
-weight: 2
+weight: 3
 date: 2026-09-01
 
 # Organization Stuff
@@ -12,7 +12,7 @@ catergories: ['Games']
 featured: false
 
 # Header Info
-tags: ['WIP', 'Unity', 'C#', 'HLSL', 'Shader Graph']
+tags: ['Unity', 'C#', 'HLSL', 'Shader Graph']
 params:
   projectRole: "Graphics & Tools Programmer"
   projectSize: "5"
@@ -21,20 +21,20 @@ params:
 
 <!-- TODO update hero.html or make a shortcode for project information at the top -->
 
-If you're reading this, this page is WIP. Congrats you get to see it being half done. You can message / email me via LinkedIn if you want more details this page is finished.
+**If you're reading this, this page is WIP. Congrats you get to see it being half done. You can message me via LinkedIn or Email if you want more details before this page is finished.**
 
-<!-- 
+
 {{< video
-  src="Clip_Turnaround_Small.mp4"
+  src="Clip_Showcase.mp4"
   poster="feature.png"
-  caption="**Starcatcher** - Main scene turnaround"
+  caption="**Mimic** - Temp video lol"
   autoplay=true
   controls=false
   loop=true
   muted=true
->}} -->
+>}}
 
-<!-- About  -->
+<!-- About & Role / Problem Statement -->
 
 <br>
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
@@ -46,27 +46,25 @@ Hunt down the mimic hiding in an old, well-worn motel. The twist? Your only clue
 
 Our team's submission to the 2026.2 Brackeys Game Jam is Mimic, an asynchronous puzzle game. The game is as simple as it is written, but the possibilities for trickery and unique experiences are as endless as the number of people playing the game. 
 
-  </div>
-  
-  <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
-    <div class="iframe-wrapper">
+  <div class="iframe-wrapper">
       <iframe id="responsive-iframe" src="https://itch.io/embed/4934283?border_width=0&amp;bg_color=222222&amp;fg_color=eeeeee&amp;link_color=320000&amp;border_color=363636"></iframe>
     </div>
   </div>
-
-</div>
-<br>
-
-<!-- Role / Problem Statement -->
-
-<br>
-
+  
+  <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+    
 # My Role
 * 
 
 * 
 
 * 
+
+  </div>
+
+</div>
+<br>
+
 
 <br>
 
@@ -91,8 +89,8 @@ Toon Hatching Surface Shader & Outlines
   <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
 
 {{< video
-  src="Clip_Sun_Shader.mp4"
-  caption="**Starcatcher** - Stars Shader"
+  src="Clip_Showcase.mp4"
+  caption="**Mimic** - Shader showcase"
   autoplay=true
   controls=false
   loop=true
@@ -112,7 +110,7 @@ Toon Hatching Surface Shader & Outlines
 
 {{< video
   src="Clip_Sky.mp4"
-  caption="**Starcatcher** - Sky System playing"
+  caption="**Mimic** - Recolour pipeline demo"
   autoplay=true
   controls=false
   loop=true
@@ -126,10 +124,9 @@ Toon Hatching Surface Shader & Outlines
 # Recolour Shader
 
 * We needed a lot of variations so we did them procedurally
-* Show a pipeline picture / video
 * Takes in BW text → Set colour in engine → Finished product turn around
 
-[TODO in editor tool screenshot]
+[TODO Show a pipeline video in editor tool screenshot video, formatted kinda like Minions Art!]
 
   </div>
 </div>
@@ -145,14 +142,14 @@ Toon Hatching Surface Shader & Outlines
 
 * Lots of randomization and editor controls. Recursive structure. Option to tune more specific parts (ex: random objects per locator) if needed but can be ignore if not needed. Helpful buttons and stuff
 
-[TODO quick explanation. I've done Gerstner waves before though]
+[TODO Video with zoom ins and bottom captions to show what editing things do]
 
   </div>
   <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
 
 {{< video
   src="Clip_Waves.mp4"
-  caption="**Starcatcher** - Gerstner Wave Shader"
+  caption="**Mimic** - Using Room Randomization tool in engine"
   autoplay=true
   controls=false
   loop=true
@@ -171,7 +168,7 @@ Toon Hatching Surface Shader & Outlines
 {{< video
   src="Clip_Turnaround_Small.mp4"
   poster="feature.png"
-  caption="**Starcatcher** - Main scene turnaround (again)"
+  caption="**Mimic** - Not sure what to put here"
   autoplay=true
   controls=false
   loop=true

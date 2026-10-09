@@ -22,16 +22,6 @@
     </item>
     
     <item>
-      <title>[TODO] Mimic: Tech Art Breakdown</title>
-      <link>http://localhost:1313/site/games/mimic/</link>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>http://localhost:1313/site/games/mimic/</guid>
-      <description>Summary</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/mimic/feature.png" />
-    </item>
-    
-    <item>
       <title>Starcatcher: Tech Art Breakdown</title>
       <link>http://localhost:1313/site/games/starcatcher/</link>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
@@ -42,13 +32,13 @@
     </item>
     
     <item>
-      <title>Belgian Feather Bowling : On The Go!</title>
-      <link>http://localhost:1313/site/games/bfb/</link>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <title>[TODO] Mimic: Tech Art Breakdown</title>
+      <link>http://localhost:1313/site/games/mimic/</link>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>http://localhost:1313/site/games/bfb/</guid>
-      <description>A 3D, educational recreation of the sport Belgian Feather Bowling for Web and Mobile</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/bfb/feature.png" />
+      <guid>http://localhost:1313/site/games/mimic/</guid>
+      <description>Summary</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/mimic/feature.png" />
     </item>
     
     <item>
@@ -59,6 +49,16 @@
       <guid>http://localhost:1313/site/graphics/volumetric-clouds/</guid>
       <description>Volumetric clouds implemented as a post processing effect using ray marching.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/graphics/volumetric-clouds/feature.gif" />
+    </item>
+    
+    <item>
+      <title>Belgian Feather Bowling : On The Go!</title>
+      <link>http://localhost:1313/site/games/bfb/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
+      <guid>http://localhost:1313/site/games/bfb/</guid>
+      <description>A 3D, educational recreation of the sport Belgian Feather Bowling for Web and Mobile</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/bfb/feature.png" />
     </item>
     
     <item>

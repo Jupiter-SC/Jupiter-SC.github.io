@@ -48,21 +48,14 @@ Launch into space, grab stars falling out of the sky, and throw them back into t
 
 Our submission to this summer's MelonJam 2026 is STARCATCHER, an action movement game. Use an expressive movement system to go up to the stars, then watch the sparks fly as you bring back order to the earth.
 
-We ended up ranked #4 in Graphics, #5 in Polish, and #7 in Innovation!
+We ended up ranked **#4 in Graphics**, #5 in Polish, and #7 in Innovation!
 
+  <div class="iframe-wrapper">
+    <iframe id="responsive-iframe" src="https://itch.io/embed/4792848?bg_color=222222&amp;fg_color=eeeeee&amp;link_color=fadb5b&amp;border_color=363636"></iframe>
+  </div>
   </div>
 
   <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
-    <div class="iframe-wrapper">
-      <iframe id="responsive-iframe" src="https://itch.io/embed/4792848?bg_color=222222&amp;fg_color=eeeeee&amp;link_color=fadb5b&amp;border_color=363636"></iframe>
-    </div>
-  </div>
-</div>
-<br>
-
-<!-- Role / Problem Statement -->
-
-<br>
 
 # My Role
 * As a Graphics Programmer / Technical Artist, I used my unique background in Programming and Art to program shaders and tools to further the visuals of our game
@@ -70,6 +63,14 @@ We ended up ranked #4 in Graphics, #5 in Polish, and #7 in Innovation!
 * I did this by collaborating with the team specifically with artist Brandon (linked in Itch page) to define an art direction
 
 * Then I went ahead and made the shaders and systems required. Starting the Water shader, to refamiliarize myself with Unity since I have programmed Gerstner Waves before. Then the Star/Sun Shader since it was the centerpiece. Next the sky system, as it was integrated with game mechanics. Lastly Terrain.
+
+  </div>
+</div>
+<br>
+
+<!-- Role / Problem Statement -->
+
+<br>
 
 <br>
 

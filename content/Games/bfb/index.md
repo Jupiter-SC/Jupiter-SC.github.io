@@ -4,7 +4,7 @@ date: 2026-02-01
 draft: false
 summary: 'A 3D, educational recreation of the sport Belgian Feather Bowling for Web and Mobile'
 catergories: ['Games']
-weight: 2
+weight: 3
 type: "Games"
 
 # Header Info

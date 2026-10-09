@@ -42,16 +42,6 @@
     </item>
     
     <item>
-      <title>[TODO] Mimic: Tech Art Breakdown</title>
-      <link>http://localhost:1313/site/games/mimic/</link>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>http://localhost:1313/site/games/mimic/</guid>
-      <description>Summary</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/mimic/feature.png" />
-    </item>
-    
-    <item>
       <title>Starcatcher: Tech Art Breakdown</title>
       <link>http://localhost:1313/site/games/starcatcher/</link>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
@@ -82,23 +72,13 @@
     </item>
     
     <item>
-      <title>Belgian Feather Bowling : On The Go!</title>
-      <link>http://localhost:1313/site/games/bfb/</link>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <title>[TODO] Mimic: Tech Art Breakdown</title>
+      <link>http://localhost:1313/site/games/mimic/</link>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>http://localhost:1313/site/games/bfb/</guid>
-      <description>A 3D, educational recreation of the sport Belgian Feather Bowling for Web and Mobile</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/bfb/feature.png" />
-    </item>
-    
-    <item>
-      <title>Croaky Climber</title>
-      <link>http://localhost:1313/site/games/croaky-climber/</link>
-      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
-      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>http://localhost:1313/site/games/croaky-climber/</guid>
-      <description>A 2D platformer where the hero can&amp;rsquo;t jump and moves by grappling with his tongue</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/croaky-climber/feature.png" />
+      <guid>http://localhost:1313/site/games/mimic/</guid>
+      <description>Summary</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/mimic/feature.png" />
     </item>
     
     <item>
@@ -122,6 +102,16 @@
     </item>
     
     <item>
+      <title>Belgian Feather Bowling : On The Go!</title>
+      <link>http://localhost:1313/site/games/bfb/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
+      <guid>http://localhost:1313/site/games/bfb/</guid>
+      <description>A 3D, educational recreation of the sport Belgian Feather Bowling for Web and Mobile</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/bfb/feature.png" />
+    </item>
+    
+    <item>
       <title>Custom Animation System &amp; Character Controller in Unity</title>
       <link>http://localhost:1313/site/graphics/custom-unity-animation-system/</link>
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
@@ -129,6 +119,16 @@
       <guid>http://localhost:1313/site/graphics/custom-unity-animation-system/</guid>
       <description>We built a completely engine agnostic animation backend and hooked it up to Unity specifics.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/graphics/custom-unity-animation-system/feature.png" />
+    </item>
+    
+    <item>
+      <title>Croaky Climber</title>
+      <link>http://localhost:1313/site/games/croaky-climber/</link>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
+      <guid>http://localhost:1313/site/games/croaky-climber/</guid>
+      <description>A 2D platformer where the hero can&amp;rsquo;t jump and moves by grappling with his tongue</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/croaky-climber/feature.png" />
     </item>
     
     <item>

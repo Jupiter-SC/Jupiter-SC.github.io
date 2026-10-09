@@ -4,7 +4,7 @@ date: 2026-02-05
 draft: false
 summary: "A 2D platformer where the hero can't jump and moves by grappling with his tongue"
 catergories: ['Games']
-weight: 3
+weight: 4
 type: "Games"
 
 # Header Info
