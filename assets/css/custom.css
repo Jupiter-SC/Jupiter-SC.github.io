@@ -56,6 +56,7 @@ html {
     width: 100%;
     max-width: 552px;
     max-height: 167px;
+    min-height: 167px;
     padding-top: 30%;
     overflow: hidden;
     margin: auto;
@@ -73,7 +74,7 @@ html {
 /* Hero Image */
 
 .hero-img {
-    max-width: 1200px;
+    max-width: auto;
     max-height: 400px;
     width: auto;
     margin-left: auto;
@@ -83,13 +84,12 @@ html {
 /* Hero (Header) Information */
 
 .hero-info {
+    display: flex;
     background-color: #ffffff0d;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 0px;
     padding-right: 0px;
-    min-height: 150px;
-    max-height: 250px;
     border-top: 2px solid #007bd3;
     border-bottom: 2px solid #007bd3;
     box-sizing: inherit;
@@ -155,6 +155,7 @@ html {
 }
 
 /* Other Grids */
+
 .devicon-container {
     display: flex;
     flex-wrap: wrap;

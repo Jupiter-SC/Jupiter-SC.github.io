@@ -6,7 +6,7 @@ weight: 2
 date: 2026-09-01
 
 # Organization Stuff
-draft: true
+draft: false
 type: "Games"
 catergories: ['Games']
 featured: false
@@ -14,7 +14,7 @@ featured: false
 # Header Info
 tags: ['WIP', 'Unity', 'C#', 'HLSL', 'Shader Graph']
 params:
-  projectRole: "Graphics Programmer"
+  projectRole: "Graphics & Tools Programmer"
   projectSize: "5"
   projectTimeline: "1 Week, 2026"
 ---
@@ -126,7 +126,8 @@ Toon Hatching Surface Shader & Outlines
 # Recolour Shader
 
 * We needed a lot of variations so we did them procedurally
-* Takes in BW text → colour
+* Show a pipeline picture / video
+* Takes in BW text → Set colour in engine → Finished product turn around
 
 [TODO in editor tool screenshot]
 

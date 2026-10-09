@@ -10,7 +10,7 @@ type: "Games"
 # Header Info
 tags: ['Unity', 'C#']
 params:
-  projectRole: "Sole Programmer & Scrum Master"
+  projectRole: "Sole Programmer, Scrum Master"
   projectSize: "5"
   projectTimeline: "Mar - May 2024"
 ---

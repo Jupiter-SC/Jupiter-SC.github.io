@@ -19,14 +19,13 @@ hero_params:
 # Header Info
 tags: ['Unity', 'C#', 'HLSL', 'Shader Graph']
 params:
-  projectRole: "Graphics Programmer / Tech Artist"
+  projectRole: "Graphics Programmer, Tech Artist"
   projectSize: "4"
   projectTimeline: "Weekend, 2026"
-  featureimage: "hero-logo.png"
   showTitle: false
-  showSubtitle: true
   subtitle: "Tech Art Breakdown"
 ---
+
 {{< video
   src="Clip_Turnaround_Small.mp4"
   poster="feature.png"

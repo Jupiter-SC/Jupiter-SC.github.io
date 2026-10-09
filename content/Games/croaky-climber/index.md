@@ -10,7 +10,7 @@ type: "Games"
 # Header Info
 tags: ['Game Maker Studio 2', 'GML']
 params:
-  projectRole: "Sole Programmer & Designer"
+  projectRole: "Sole Programmer, Designer"
   projectSize: "3"
   projectTimeline: "Winter 2021 - Spring 2022"
 ---

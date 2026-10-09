@@ -11,7 +11,7 @@ type: "Games"
 # Header Info
 tags: ['Unity', 'C#']
 params:
-  projectRole: "Sole Programmer & Producer"
+  projectRole: "Sole Programmer, Producer"
   projectSize: "4"
   projectTimeline: "Feb - March 2024"
 ---
