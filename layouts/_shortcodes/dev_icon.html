@@ -16,23 +16,23 @@
 
 {{- if $icon -}}
   <div>
-    <span class="rounded-lg border-primary px-2 py-[1px]">
+    <div class="rounded-lg border-primary px-2 py-[1px]">
       {{ with $icon }}
         <img class="relative inline-block icon" width="80" src="{{ .RelPermalink }}">
       {{ end }}
       {{ $name }}
-    </span>
+    </div>
   </div>
 {{- else -}}
   {{ $icon := resources.Get (printf "icons/%s.svg" ($.Get 1)) -}}
   {{- if $icon -}}
     <div>
-      <span class="rounded-lg border-primary px-2 py-[1px]">
-        <span class="relative inline-block icon">
+      <div class="rounded-lg border-primary px-2 py-[1px]">
+        <div class="relative inline-block icon">
           {{- strings.Replace $icon.Content "\n" "" | safeHTML -}}
-        </span>
+        </div>
         {{ $name }}
-      </span>
+      </div>
     </div>
   {{- else -}}
     {{- errorf `icon shortcode: resource "%s" not found. Check the path is correct or remove the shortcode: %s` (printf "icons/%s.png" ($.Get 0)) .Position -}}
