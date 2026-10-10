@@ -41,7 +41,7 @@ layout = "better-background"
 
 # Now also applied to featured
 showMoreLink = true
-showMoreLinkDest = "/site/all-projects/"
+showMoreLinkDest = "/all-projects/"
 cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = true
