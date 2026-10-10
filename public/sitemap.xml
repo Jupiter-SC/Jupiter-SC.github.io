@@ -3,135 +3,135 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/site/games/socratic-smackdown/</loc>
+    <loc>http://localhost:1313/games/socratic-smackdown/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/graphics/gerstner-waves/</loc>
+    <loc>http://localhost:1313/graphics/gerstner-waves/</loc>
     <lastmod>2026-02-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/tech-art/procedural-rocks--pillars/</loc>
+    <loc>http://localhost:1313/tech-art/procedural-rocks--pillars/</loc>
     <lastmod>2026-02-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/games/starcatcher/</loc>
+    <loc>http://localhost:1313/games/starcatcher/</loc>
     <lastmod>2026-09-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/tech-art/maya-voxelizer/</loc>
+    <loc>http://localhost:1313/tech-art/maya-voxelizer/</loc>
     <lastmod>2026-02-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/graphics/volumetric-clouds/</loc>
+    <loc>http://localhost:1313/graphics/volumetric-clouds/</loc>
     <lastmod>2026-02-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/games/mimic/</loc>
+    <loc>http://localhost:1313/games/mimic/</loc>
     <lastmod>2026-09-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/graphics/callisto-engine/</loc>
+    <loc>http://localhost:1313/graphics/callisto-engine/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/tech-art/rigging--tools/</loc>
+    <loc>http://localhost:1313/tech-art/rigging--tools/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/games/bfb/</loc>
+    <loc>http://localhost:1313/games/bfb/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/graphics/custom-unity-animation-system/</loc>
+    <loc>http://localhost:1313/graphics/custom-unity-animation-system/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/games/croaky-climber/</loc>
+    <loc>http://localhost:1313/games/croaky-climber/</loc>
     <lastmod>2026-02-05T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/games/bleak-friday/</loc>
+    <loc>http://localhost:1313/games/bleak-friday/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/games/</loc>
+    <loc>http://localhost:1313/games/</loc>
     <lastmod>2026-09-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2026-09-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-09-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/graphics/</loc>
+    <loc>http://localhost:1313/graphics/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/tech-art/</loc>
+    <loc>http://localhost:1313/tech-art/</loc>
     <lastmod>2026-02-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/about-me/</loc>
+    <loc>http://localhost:1313/about-me/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/all-projects/</loc>
+    <loc>http://localhost:1313/all-projects/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/authors/</loc>
+    <loc>http://localhost:1313/authors/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/site/series/</loc>
+    <loc>http://localhost:1313/series/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

@@ -2,83 +2,83 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C# on Jupiter Sinclair Chong</title>
-    <link>http://localhost:1313/site/tags/c%23/</link>
+    <link>http://localhost:1313/tags/c%23/</link>
     <description>Recent content in C# on Jupiter Sinclair Chong</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>youremail@example.com (Jupiter Sinclair Chong)</managingEditor>
     <webMaster>youremail@example.com (Jupiter Sinclair Chong)</webMaster>
     <copyright>© 2026 Jupiter Sinclair Chong</copyright>
-    <lastBuildDate>Tue, 01 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/site/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/c%23/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Socratic Smackdown</title>
-      <link>http://localhost:1313/site/games/socratic-smackdown/</link>
+      <link>http://localhost:1313/games/socratic-smackdown/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>http://localhost:1313/site/games/socratic-smackdown/</guid>
+      <guid>http://localhost:1313/games/socratic-smackdown/</guid>
       <description>A platform fighter where animalized versions of classic philosophers put down their words and raise up their fists!</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/socratic-smackdown/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/games/socratic-smackdown/feature.png" />
     </item>
     
     <item>
       <title>Starcatcher: Tech Art Breakdown</title>
-      <link>http://localhost:1313/site/games/starcatcher/</link>
+      <link>http://localhost:1313/games/starcatcher/</link>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>http://localhost:1313/site/games/starcatcher/</guid>
+      <guid>http://localhost:1313/games/starcatcher/</guid>
       <description>I worked as a Graphics Programmer / Tech Artist and got to do some cool things. This page is WIP</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/starcatcher/featured-square.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/games/starcatcher/featured-square.png" />
     </item>
     
     <item>
       <title>Volumetric Clouds</title>
-      <link>http://localhost:1313/site/graphics/volumetric-clouds/</link>
+      <link>http://localhost:1313/graphics/volumetric-clouds/</link>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>http://localhost:1313/site/graphics/volumetric-clouds/</guid>
+      <guid>http://localhost:1313/graphics/volumetric-clouds/</guid>
       <description>Volumetric clouds implemented as a post processing effect using ray marching.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/graphics/volumetric-clouds/feature.gif" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/graphics/volumetric-clouds/feature.gif" />
     </item>
     
     <item>
       <title>[TODO] Mimic: Tech Art Breakdown</title>
-      <link>http://localhost:1313/site/games/mimic/</link>
+      <link>http://localhost:1313/games/mimic/</link>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>http://localhost:1313/site/games/mimic/</guid>
+      <guid>http://localhost:1313/games/mimic/</guid>
       <description>Summary</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/mimic/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/games/mimic/feature.png" />
     </item>
     
     <item>
       <title>Belgian Feather Bowling : On The Go!</title>
-      <link>http://localhost:1313/site/games/bfb/</link>
+      <link>http://localhost:1313/games/bfb/</link>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>http://localhost:1313/site/games/bfb/</guid>
+      <guid>http://localhost:1313/games/bfb/</guid>
       <description>A 3D, educational recreation of the sport Belgian Feather Bowling for Web and Mobile</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/bfb/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/games/bfb/feature.png" />
     </item>
     
     <item>
       <title>Custom Animation System &amp; Character Controller in Unity</title>
-      <link>http://localhost:1313/site/graphics/custom-unity-animation-system/</link>
+      <link>http://localhost:1313/graphics/custom-unity-animation-system/</link>
       <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>http://localhost:1313/site/graphics/custom-unity-animation-system/</guid>
+      <guid>http://localhost:1313/graphics/custom-unity-animation-system/</guid>
       <description>We built a completely engine agnostic animation backend and hooked it up to Unity specifics.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/graphics/custom-unity-animation-system/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/graphics/custom-unity-animation-system/feature.png" />
     </item>
     
     <item>
       <title>Bleak Friday</title>
-      <link>http://localhost:1313/site/games/bleak-friday/</link>
+      <link>http://localhost:1313/games/bleak-friday/</link>
       <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>http://localhost:1313/site/games/bleak-friday/</guid>
+      <guid>http://localhost:1313/games/bleak-friday/</guid>
       <description>A 2D action game that puts the player in the role of a retail cashier on Black Friday It features frantic point and click gameplay, a large amount of variety, and hilarious items</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/games/bleak-friday/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/games/bleak-friday/feature.png" />
     </item>
     
   </channel>
