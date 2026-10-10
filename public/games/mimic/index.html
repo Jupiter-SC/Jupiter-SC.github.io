@@ -192,6 +192,21 @@
 
 
 
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/site/css/components/carousel.60dfc156f6adcb4e4ed0f489b28f5b34e2424756a0ffb5294d291f6bf0a9ef712c4f65db4b6f8659d219f9c53f402093639e6514eb30977898f7238c25b99686.css"
+    integrity="sha512-YN/BVvaty05O0PSJso9bNOJCR1ag/7UpTSkfa/Cp73EsT2XbS2&#43;GWdIZ&#43;cU/QCCTY55lFOswl3iY9yOMJbmWhg==">
+  
+  
+  <script
+    defer
+    type="text/javascript"
+    src="/site/lib/tw-elements/index.min.6b06ebf307d7569a9491faed79e5fc607129a8b37e9e25b0c3def74abaed8762a7ee292009ca3f87fac138d101c397a01b72cf91d6ee78be4a3eba827ff37292.js"
+    integrity="sha512-awbr8wfXVpqUkfrteeX8YHEpqLN&#43;niWww973Srrth2Kn7ikgCco/h/rBONEBw5egG3LPkdbueL5KPrqCf/Nykg=="></script>
+
 
 
 
@@ -249,7 +264,7 @@
     "keywords": ["Unity","C#","HLSL","Shader Graph"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "376"
+    "wordCount": "541"
   }]
   </script>
 
@@ -1446,7 +1461,7 @@
 
         <div class="article-content max-w-full mb-20">
           <!-- TODO update hero.html or make a shortcode for project information at the top -->
-<p><strong>If you&rsquo;re reading this, this page is WIP. Congrats you get to see it being half done. You can message me via LinkedIn or Email if you want more details before this page is finished.</strong></p>
+<p><strong>If you&rsquo;re reading this, this page is WIP. Congrats you get to see it being half done. You can message me via LinkedIn or Email if you want more details before this page is finished.</strong> All of those pictures will be turned into short captioned videos :). I have many to-dos in my comments&hellip; Getting footage is boring and tedious&hellip; I&rsquo;m making a plugin to make it a bit less of a pain..</p>
 <figure>
   <video
     class="w-full rounded-md aspect-video object-contain"preload="metadata" poster="/site/games/mimic/feature.png" autoplay loop muted controls playsinline>
@@ -1487,18 +1502,37 @@
     
 </h1>
 <ul>
-<li></li>
-<li></li>
-<li></li>
+<li>I needed to create a visually disctinct shader style based on the artists and I&rsquo;s shared vision. And work on tooling to speed up work for Artist and Designer</li>
 </ul>
-  </div>
+
+<h1 class="relative group">My Contributions
+    <div id="my-contributions" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#my-contributions" aria-label="Anchor">#</a>
+    </span>
+    
+</h1>
+<ul>
+<li>
+<p>Creating the main surface shader, with a slight hand-drawn and grainy asethetic</p>
+</li>
+<li>
+<p>A recolouring shader to speed up Artist workflow and allow for easy variations</p>
+</li>
+<li>
+<p>A procedural room layout system with editor featuring a recursive style to speed up Designer workflows</p>
+</div>
+</li>
+</ul>
 </div>
 <br>
 <br>
 <!-- Surface Shader -->
 <br>
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+    <div style="float: left; width: 100%; max-width: 400px; min-width: 200px; margin-left: 20px">
 
 <h1 class="relative group">Surface Shader
     <div id="surface-shader" class="anchor"></div>
@@ -1509,23 +1543,19 @@
     </span>
     
 </h1>
-<p>Toon Hatching Surface Shader &amp; Outlines</p>
 <ul>
 <li>
-<p>The goal was to make something inspired by hand drawn art with a grainy atmosphere.</p>
+<p>The goal was to make something inspired by hand drawn art with a grainy atmosphere</p>
 </li>
 <li>
-<p>It’s a toon shader with 3 light levels, with a noise value added to make the shading splotchy. Then shadowed parts use different hatching textures.</p>
-</li>
-<li>
-<p>For the outlines my goal was to create a boiling lines effect. I used the inverse hull method for outlines, and then added a random offset per vertex to make them wobble. It switches between 3 variations based on time.</p>
+<p>It consists of a toon surface shader with hatching and noise offsets, and inverse hull outlines</p>
 </div>
-<div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+<div style="float: right; width: 100%; max-width: 800px; min-width: 200px; margin-left: 20px">
 </li>
 </ul>
 <figure>
   <video
-    class="w-full rounded-md aspect-square object-contain"preload="metadata" autoplay loop muted controls playsinline>
+    class="w-full rounded-md aspect-video object-contain"preload="metadata" autoplay loop muted controls playsinline>
     <source src="/site/games/mimic/Clip_Showcase.mp4">
     <p>Your browser cannot play this video. <a href="/site/games/mimic/Clip_Showcase.mp4">Download video</a>.</p>
   </video><figcaption><strong>Mimic</strong> - Shader showcase</figcaption>
@@ -1533,19 +1563,60 @@
 
   </div>
 </div>
-<br>
-<!-- Recolour Shader -->
+<!-- For the surface shader have a turn around, and add on each “layer” / part of the shader one at a time (ex base lighting -> toon lighting -> noise offset), with bottom captions explaining whats added -->
+<!-- [TODO Replace tiny images with quick annotated videos with zoomed in sections :)] -->
 <br>
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
     <div style="float: left; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
-<figure>
+<ul>
+<li>It’s a toon shader with 3 light levels, with a noise value added to make the shading splotchy. Then shadowed parts use different hatching textures.</li>
+</ul>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt="Toon ShaderGraph image"
+    src="Shadergraph-Toon.jpg"
+    ></figure>
+  </div>
+  <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+<ul>
+<li>For the outlines my goal was to create a boiling lines effect. I used the inverse hull method for outlines, and then added a random offset per vertex to make them wobble. It switches between 3 variations based on time.</li>
+</ul>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt="Outline ShaderGraph image"
+    src="Shadergraph-Outlines.jpg"
+    ></figure>
+  </div>
+</div>
+<br>
+<!-- Recolour Shader -->
+<!-- For the recolour  shader,  mention  the  reason for having 5  color options was to have them equally spaced and  fix can't   serialize gradients,  and it's faster than using another texture since it can all be done in engine -->
+<!-- TODO Show a pipeline video in editor tool screenshot video, formatted kinda like Minions Art!  -->
+<br>
+<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
+    <div style="float: left; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+<!-- <figure>
   <video
     class="w-full rounded-md aspect-square object-contain"preload="metadata" autoplay loop muted controls playsinline>
     <source src="/site/games/mimic/Clip_Sky.mp4">
     <p>Your browser cannot play this video. <a href="/site/games/mimic/Clip_Sky.mp4">Download video</a>.</p>
   </video><figcaption><strong>Mimic</strong> - Recolour pipeline demo</figcaption>
 </figure>
-
+ -->
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt="Outline ShaderGraph image"
+    src="Shadergraph-Recolour.jpg"
+    ></figure>
   </div>
   <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
 
@@ -1559,14 +1630,18 @@
     
 </h1>
 <ul>
-<li>We needed a lot of variations so we did them procedurally</li>
-<li>Takes in BW text → Set colour in engine → Finished product turn around</li>
+<li>
+<p>We needed a lot of variations so we did them procedurally</p>
+</li>
+<li>
+<p>Takes in BW text → Set colour in engine → Finished product turn around</p>
+</div>
+</li>
 </ul>
-<p>[TODO Show a pipeline video in editor tool screenshot video, formatted kinda like Minions Art!]</p>
-  </div>
 </div>
 <br>
 <!-- Randomizing Rooms -->
+<!-- For the room be sure to show off prop setup and recursive  nature (ben genning some recursives),  then gen the whole room -->
 <br>
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
     <div style="float: left; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
@@ -1581,19 +1656,340 @@
     
 </h1>
 <ul>
-<li>Lots of randomization and editor controls. Recursive structure. Option to tune more specific parts (ex: random objects per locator) if needed but can be ignore if not needed. Helpful buttons and stuff</li>
+<li>
+<p>Editor tool to create randomized rooms and save them as prefabs to use as the actual game levels. Speeds up Design workflow and add more variety</p>
+</li>
+<li>
+<p>Recursive structure means rooms can randomize child props (ex: Table with random chairs). Option to tune more specific parts if needed but can be ignore if not needed.</p>
+</li>
+<li>
+<p>Full Features:</p>
+<ul>
+<li>Recursive struture</li>
+<li>Save prefab button with name</li>
+<li>Bounds for position/rotation randomization on child objects (plus a button to actually apply to children since they have their own values)</li>
+<li>RoomID list to integrate with gameplay parts</li>
+<li>Prop list to pick randomized items from</li>
+<li>Randomizing texture colours on props</li>
+<li>I might be forgetting some&hellip;</li>
 </ul>
-<p>[TODO Video with zoom ins and bottom captions to show what editing things do]</p>
+</li>
+</ul>
+<!-- [TODO Video with zoom ins and bottom captions to show what editing things do] -->
   </div>
   <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
-<figure>
+<!-- <figure>
   <video
     class="w-full rounded-md aspect-square object-contain"preload="metadata" autoplay loop muted controls playsinline>
     <source src="/site/games/mimic/Clip_Waves.mp4">
     <p>Your browser cannot play this video. <a href="/site/games/mimic/Clip_Waves.mp4">Download video</a>.</p>
   </video><figcaption><strong>Mimic</strong> - Using Room Randomization tool in engine</figcaption>
 </figure>
+ -->
 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<div class="width-patch"></div>
+<div
+  id="carousel-a3fe407a4c92c995bd9ae360f4327b38-1791617199011075500"
+  class="relative"
+  data-twe-carousel-init
+  data-twe-ride="carousel"
+  data-twe-interval="2000">
+  <div
+    class="absolute right-0 bottom-0 left-0 z-2 mx-[15%] mb-10 flex list-none justify-center p-0"
+    data-twe-carousel-indicators>
+    
+    
+      <button
+        type="button"
+        data-twe-target="#carousel-a3fe407a4c92c995bd9ae360f4327b38-1791617199011075500"
+        data-twe-slide-to="0"
+        data-twe-carousel-active aria-current="true"
+        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+        aria-label="Slide 0"></button>
+      
+    
+      <button
+        type="button"
+        data-twe-target="#carousel-a3fe407a4c92c995bd9ae360f4327b38-1791617199011075500"
+        data-twe-slide-to="1"
+        
+        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+        aria-label="Slide 1"></button>
+      
+    
+      <button
+        type="button"
+        data-twe-target="#carousel-a3fe407a4c92c995bd9ae360f4327b38-1791617199011075500"
+        data-twe-slide-to="2"
+        
+        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+        aria-label="Slide 2"></button>
+      
+    
+  </div>
+
+  <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+    
+      
+      <div
+        class="relative float-left -mr-[100%]  w-full transition-transform ease-in-out motion-reduce:transition-none"
+        data-twe-carousel-item
+        style="transition-duration: 2000ms;"
+        data-twe-carousel-active>
+        <div class="single_hero_background" style="aspect-ratio: 16 / 9;">
+          <img
+            src="/site/games/mimic/Rooms/Rooms-1-Layout-Editor.jpg"
+            class="block absolute top-0 object-cover w-full h-full not-prose nozoom"
+            alt="carousel image 1">
+        </div>
+      </div>
+    
+      
+      <div
+        class="relative float-left -mr-[100%] hidden w-full transition-transform ease-in-out motion-reduce:transition-none"
+        data-twe-carousel-item
+        style="transition-duration: 2000ms;"
+        >
+        <div class="single_hero_background" style="aspect-ratio: 16 / 9;">
+          <img
+            src="/site/games/mimic/Rooms/Rooms-2-Layout-Editor-2.jpg"
+            class="block absolute top-0 object-cover w-full h-full not-prose nozoom"
+            alt="carousel image 2">
+        </div>
+      </div>
+    
+      
+      <div
+        class="relative float-left -mr-[100%] hidden w-full transition-transform ease-in-out motion-reduce:transition-none"
+        data-twe-carousel-item
+        style="transition-duration: 2000ms;"
+        >
+        <div class="single_hero_background" style="aspect-ratio: 16 / 9;">
+          <img
+            src="/site/games/mimic/Rooms/Rooms-3-ExampleGen.jpg"
+            class="block absolute top-0 object-cover w-full h-full not-prose nozoom"
+            alt="carousel image 3">
+        </div>
+      </div>
+    
+  </div>
+
+  <button
+    class="absolute top-0 bottom-0 left-0 z-2 flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+    type="button"
+    data-twe-target="#carousel-a3fe407a4c92c995bd9ae360f4327b38-1791617199011075500"
+    data-twe-slide="prev">
+    <span class="inline-block h-8 w-8">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="4.5"
+        stroke="currentColor"
+        class="h-6 w-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+      </svg>
+    </span>
+    <span
+      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+      >Previous</span
+    >
+  </button>
+
+  <button
+    class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+    type="button"
+    data-twe-target="#carousel-a3fe407a4c92c995bd9ae360f4327b38-1791617199011075500"
+    data-twe-slide="next">
+    <span class="inline-block h-8 w-8">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="4.5"
+        stroke="currentColor"
+        class="h-6 w-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+      </svg>
+    </span>
+    <span
+      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+      >Next</span
+    >
+  </button>
+</div>
+
+<p><strong>Mimic</strong> - Using Room Randomization tool in engine</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<div class="width-patch"></div>
+<div
+  id="carousel-9f5b41eaec1233f80b9e3eb2b7afa9a8-1791617199011597500"
+  class="relative"
+  data-twe-carousel-init
+  data-twe-ride="carousel"
+  data-twe-interval="2000">
+  <div
+    class="absolute right-0 bottom-0 left-0 z-2 mx-[15%] mb-10 flex list-none justify-center p-0"
+    data-twe-carousel-indicators>
+    
+    
+      <button
+        type="button"
+        data-twe-target="#carousel-9f5b41eaec1233f80b9e3eb2b7afa9a8-1791617199011597500"
+        data-twe-slide-to="0"
+        data-twe-carousel-active aria-current="true"
+        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+        aria-label="Slide 0"></button>
+      
+    
+      <button
+        type="button"
+        data-twe-target="#carousel-9f5b41eaec1233f80b9e3eb2b7afa9a8-1791617199011597500"
+        data-twe-slide-to="1"
+        
+        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+        aria-label="Slide 1"></button>
+      
+    
+      <button
+        type="button"
+        data-twe-target="#carousel-9f5b41eaec1233f80b9e3eb2b7afa9a8-1791617199011597500"
+        data-twe-slide-to="2"
+        
+        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+        aria-label="Slide 2"></button>
+      
+    
+  </div>
+
+  <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+    
+      
+      <div
+        class="relative float-left -mr-[100%]  w-full transition-transform ease-in-out motion-reduce:transition-none"
+        data-twe-carousel-item
+        style="transition-duration: 2000ms;"
+        data-twe-carousel-active>
+        <div class="single_hero_background" style="aspect-ratio: 16 / 9;">
+          <img
+            src="/site/games/mimic/Carousel-2/Table.jpg"
+            class="block absolute top-0 object-cover w-full h-full not-prose nozoom"
+            alt="carousel image 1">
+        </div>
+      </div>
+    
+      
+      <div
+        class="relative float-left -mr-[100%] hidden w-full transition-transform ease-in-out motion-reduce:transition-none"
+        data-twe-carousel-item
+        style="transition-duration: 2000ms;"
+        >
+        <div class="single_hero_background" style="aspect-ratio: 16 / 9;">
+          <img
+            src="/site/games/mimic/Carousel-2/TableEditor.jpg"
+            class="block absolute top-0 object-cover w-full h-full not-prose nozoom"
+            alt="carousel image 2">
+        </div>
+      </div>
+    
+      
+      <div
+        class="relative float-left -mr-[100%] hidden w-full transition-transform ease-in-out motion-reduce:transition-none"
+        data-twe-carousel-item
+        style="transition-duration: 2000ms;"
+        >
+        <div class="single_hero_background" style="aspect-ratio: 16 / 9;">
+          <img
+            src="/site/games/mimic/Carousel-2/TableGen.jpg"
+            class="block absolute top-0 object-cover w-full h-full not-prose nozoom"
+            alt="carousel image 3">
+        </div>
+      </div>
+    
+  </div>
+
+  <button
+    class="absolute top-0 bottom-0 left-0 z-2 flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+    type="button"
+    data-twe-target="#carousel-9f5b41eaec1233f80b9e3eb2b7afa9a8-1791617199011597500"
+    data-twe-slide="prev">
+    <span class="inline-block h-8 w-8">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="4.5"
+        stroke="currentColor"
+        class="h-6 w-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+      </svg>
+    </span>
+    <span
+      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+      >Previous</span
+    >
+  </button>
+
+  <button
+    class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+    type="button"
+    data-twe-target="#carousel-9f5b41eaec1233f80b9e3eb2b7afa9a8-1791617199011597500"
+    data-twe-slide="next">
+    <span class="inline-block h-8 w-8">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="4.5"
+        stroke="currentColor"
+        class="h-6 w-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+      </svg>
+    </span>
+    <span
+      class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+      >Next</span
+    >
+  </button>
+</div>
+
+<p><strong>Mimic</strong> - Recursive Prop Gen</p>
   </div>
 </div>
 <br>
@@ -1611,26 +2007,30 @@
 <figure>
   <video
     class="w-full rounded-md aspect-video object-contain"preload="metadata" poster="/site/games/mimic/feature.png" autoplay loop muted controls playsinline>
-    <source src="/site/games/mimic/Clip_Turnaround_Small.mp4">
-    <p>Your browser cannot play this video. <a href="/site/games/mimic/Clip_Turnaround_Small.mp4">Download video</a>.</p>
-  </video><figcaption><strong>Mimic</strong> - Not sure what to put here</figcaption>
+    <source src="/site/games/mimic/Clip_Showcase.mp4">
+    <p>Your browser cannot play this video. <a href="/site/games/mimic/Clip_Showcase.mp4">Download video</a>.</p>
+  </video><figcaption><strong>Mimic</strong> - Temp video lol</figcaption>
 </figure>
 
 <br>
-<!-- Learning -->
+<!-- Learning! -->
 
-<h1 class="relative group">What I Learned
-    <div id="what-i-learned" class="anchor"></div>
+<h1 class="relative group">Learning Outcomes
+    <div id="learning-outcomes" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-i-learned" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#learning-outcomes" aria-label="Anchor">#</a>
     </span>
     
 </h1>
 <ul>
-<li></li>
-<li></li>
+<li>
+<p>Fun shader stuff!</p>
+</li>
+<li>
+<p>Make sure to tailor tools to the users and products.</p>
+</li>
 </ul>
 
           
