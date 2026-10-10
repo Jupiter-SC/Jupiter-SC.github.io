@@ -16,6 +16,9 @@ params:
   projectRole: "Programmer"
   projectSize: "3"
   projectTimeline: "Dec 2025"
+  
+  showLogo: false
+  showTitle: true
 ---
 
 {{< columns >}}

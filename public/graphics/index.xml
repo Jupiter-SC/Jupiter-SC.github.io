@@ -22,16 +22,6 @@
     </item>
     
     <item>
-      <title>Callisto Engine</title>
-      <link>http://localhost:1313/site/graphics/callisto-engine/</link>
-      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
-      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
-      <guid>http://localhost:1313/site/graphics/callisto-engine/</guid>
-      <description>Custom rendering engine used for my OpenGL projects. (Yes I named it after a moon of Jupiter)</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/graphics/callisto-engine/feature.jpg" />
-    </item>
-    
-    <item>
       <title>Volumetric Clouds</title>
       <link>http://localhost:1313/site/graphics/volumetric-clouds/</link>
       <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
@@ -39,6 +29,16 @@
       <guid>http://localhost:1313/site/graphics/volumetric-clouds/</guid>
       <description>Volumetric clouds implemented as a post processing effect using ray marching.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/graphics/volumetric-clouds/feature.gif" />
+    </item>
+    
+    <item>
+      <title>Callisto Engine</title>
+      <link>http://localhost:1313/site/graphics/callisto-engine/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <author>youremail@example.com (Jupiter Sinclair Chong)</author>
+      <guid>http://localhost:1313/site/graphics/callisto-engine/</guid>
+      <description>Custom rendering engine used for my OpenGL projects. (Yes I named it after a moon of Jupiter)</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/site/graphics/callisto-engine/feature.jpg" />
     </item>
     
     <item>

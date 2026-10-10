@@ -14,15 +14,19 @@ params:
   projectRole: "Graphics Programmer"
   projectSize: "Solo"
   projectTimeline: "Nov - Dec 2023"
-  noLogo: false
+
+  showLogo: false
+  showTitle: true
 ---
+
+**WIP**
 
 ![Image](feature.gif)
      
 <br>
 
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 820px; min-width: 200px; margin-left: 20px">
+    <div style="float: left; width: 100%; max-width: 800px; min-width: 200px; margin-left: 20px">
 
 # Overview
 
@@ -33,7 +37,7 @@ params:
 * Read the [Wikipedia](https://en.wikipedia.org/wiki/Trochoidal_wave) page 
 
 </div>
-<div style="float: right; width: 100%; max-width: 300px; min-width: 400px; margin-left: 20px">
+<div style="float: right; width: 100%; max-width: 400px; min-width: 400px; margin-left: 20px">
     
 <div>
 {{< github repo="Jupiter-SC/GPR-200" >}}
@@ -55,12 +59,8 @@ params:
 # Changing Params
 - Ability to add as many waves as you want
 - Can change the parameters per wave
-- Frequency, Amplitude, Steepness, Direction
-
-</div>
-</div>
-
-<div style="float: left; width: 100%; max-width: 500px; margin-right: 20px">
-
+    - Frequency, Amplitude, Steepness, Direction
+- Colour! (As always)
+- Blinn-Phong uniforms
 
 </div>

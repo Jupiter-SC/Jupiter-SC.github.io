@@ -26,6 +26,8 @@ params:
   subtitle: "Tech Art Breakdown"
 ---
 
+**WIP**
+
 {{< video
   src="Clip_Turnaround_Small.mp4"
   poster="feature.png"

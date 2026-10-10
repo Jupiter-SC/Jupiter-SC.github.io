@@ -132,13 +132,12 @@ Our team's submission to the 2026.2 Brackeys Game Jam is Mimic, an asynchronous 
     <div style="float: left; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
 
 <!-- {{< video
-  src="Clip_Sky.mp4"
-  caption="**Mimic** - Recolour pipeline demo"
+  src="Clip_Showcase.mp4"
+  caption="**Mimic** - Shader showcase"
   autoplay=true
   controls=false
   loop=true
   muted=true
-  ratio=1/1
 >}} -->
 
 ![Outline ShaderGraph image](Shadergraph-Recolour.jpg)
@@ -184,13 +183,12 @@ Our team's submission to the 2026.2 Brackeys Game Jam is Mimic, an asynchronous 
   <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
 
 <!-- {{< video
-  src="Clip_Waves.mp4"
-  caption="**Mimic** - Using Room Randomization tool in engine"
+  src="Clip_Showcase.mp4"
+  caption="**Mimic** - Shader showcase"
   autoplay=true
   controls=false
   loop=true
   muted=true
-  ratio=1/1
 >}} -->
 
 

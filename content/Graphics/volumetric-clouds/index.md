@@ -1,10 +1,10 @@
 ---
-title: 'Volumetric Clouds'
+title: "Volumetric Clouds"
 date: 2026-02-03
 draft: false
 summary: "Volumetric clouds implemented as a post processing effect using ray marching."
 catergories: ['Graphics']
-weight: 3
+weight: 2
 type: "Graphics"
 
 # Header Info
@@ -13,7 +13,12 @@ params:
   projectRole: "Graphics Programmer"
   projectSize: "Solo"
   projectTimeline: "Apr 2025"
+  
+  showLogo: false
+  showTitle: true
 ---
+
+**WIP**
 
 {{< video
   src="Clip-Volumetric-Clouds.mp4"
@@ -27,7 +32,7 @@ params:
 <br>
 
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+    <div style="float: left; width: 100%; max-width: 800px; min-width: 200px; margin-left: 20px">
 
 
 # Overview
@@ -38,7 +43,7 @@ params:
 - Approximating light scattering with Henyey Greenstein Phase Function
 
 </div>
-<div style="float: right; width: 100%; max-width: 300px; min-width: 200px; margin-left: 20px">
+<div style="float: right; width: 100%; max-width: 400px; min-width: 200px; margin-left: 20px">
     
 <div>
 {{< github repo="Joshua-S-C/Unity-Clouds" showThumbnail=true >}}
@@ -50,7 +55,7 @@ params:
 <br>
 
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 500px; min-width: 200px; margin-left: 20px">
+    <div style="float: left; width: 100%; max-width: 700px; min-width: 200px; margin-left: 20px">
 
 {{< carousel images="images/*" aspectRatio="16-9" interval="2500" >}}
 
@@ -58,14 +63,10 @@ params:
 <div style="float: right; width: 100%; max-width: 400px; min-width: 200px; margin-left: 20px">
 
 # Editing Params
-- 
-- 
-- 
-
-</div>
-</div>
-
-<div style="float: left; width: 100%; max-width: 500px; margin-right: 20px">
-
+- Noise 3D Texture
+- Coverage falloff / power
+- Scattering values
+- Raymarch steps num
+- Colour!
 
 </div>

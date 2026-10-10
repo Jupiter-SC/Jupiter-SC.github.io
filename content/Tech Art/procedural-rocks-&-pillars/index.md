@@ -19,6 +19,6 @@ params:
 
 Page Coming Soon
 
-{{< button href="https://jupiter-sc.github.io/site/" target="_self" >}}
+{{< button href="https://jupiter-sc.github.io/" target="_self" >}}
 Return to Home
 {{< /button >}}

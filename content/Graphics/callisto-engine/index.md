@@ -4,7 +4,7 @@ date: 2026-02-02
 draft: false
 summary:  'Custom rendering engine used for my OpenGL projects. (Yes I named it after a moon of Jupiter)'
 catergories: ['Graphics']
-weight: 2
+weight: 3
 type: "Graphics"
 
 # Header Info
@@ -13,6 +13,9 @@ params:
   projectRole: "Engine Programmer"
   projectSize: "Solo"
   projectTimeline: "2023 - Ongoing!"
+  
+  showLogo: false
+  showTitle: true
 ---
 
 {{< columns >}}

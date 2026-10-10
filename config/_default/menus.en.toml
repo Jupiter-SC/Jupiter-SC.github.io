@@ -54,22 +54,22 @@ pageRef = "Graphics"
 weight = 2
 
 [[main]]
-name = "Callisto Engine"
-pageRef = "Graphics/callisto-engine"
-parent = "Graphics"
-weight = 13
-
-[[main]]
 name = "Gerstner Waves"
 pageRef = "Graphics/gerstner-waves"
 parent = "Graphics"
-weight = 7
+weight = 1
 
 [[main]]
 name = "Volumetric Clouds"
 pageRef = "Graphics/volumetric-clouds"
 parent = "Graphics"
-weight = 14
+weight = 3
+
+[[main]]
+name = "Callisto Engine"
+pageRef = "Graphics/callisto-engine"
+parent = "Graphics"
+weight = 5
 
 [[main]]
 name = "Unity Animation System"

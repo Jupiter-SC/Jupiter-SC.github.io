@@ -83,14 +83,16 @@
 )
 }}
 
-{{ with $featuredURL }}
-<!-- <div class="overflow-hidden rounded-md h-36 md:h-56 lg:h-72 nozoom"> -->
-<div class="overflow-hidden rounded-md nozoom">
-  <img src="{{ . }}" role="presentation" loading="eager" decoding="async" fetchpriority="high"
-    class="w-full h-full nozoom object-cover hero-img" height="100"
-    {{ with $.Params.imagePositionFeature }}style="object-position: {{ . }};"
-    {{ end }}>
-</div>
+{{ if .Params.showLogo | default (site.Params.article.showLogo | default true) }}
+  {{ with $featuredURL }}
+  <!-- <div class="overflow-hidden rounded-md h-36 md:h-56 lg:h-72 nozoom"> -->
+    <div class="overflow-hidden rounded-md nozoom">
+      <img src="{{ . }}" role="presentation" loading="eager" decoding="async" fetchpriority="high"
+      class="w-full h-full nozoom object-cover hero-img" height="100"
+      {{ with $.Params.imagePositionFeature }}style="object-position: {{ . }};"
+      {{ end }}>
+    </div>
+  {{ end }}
 {{ end }}
 
 
