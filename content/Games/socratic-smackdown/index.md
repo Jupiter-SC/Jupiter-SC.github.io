@@ -18,6 +18,8 @@ params:
   projectTimeline: "Aug 2025 - May 2026"
 ---
 
+**WIP**
+
 <!-- Header Video -->
 
 {{< youtube 
@@ -33,8 +35,8 @@ params:
 <!-- About the Game & Contribution -->
 
 <br>
-<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 700px; min-width: 200px; margin-left: 20px">
+<div class=article-col>
+  <div class=left>
 
 # About the Game
 
@@ -47,7 +49,7 @@ Do cool combos, use special philosophy-inspired moves, and send opponents flying
   </div>
   </div>
 
-  <div style="float: right; width: 100%; max-width: 500px; min-width: 200px; margin-left: 20px">
+  <div class=right>
     
 # My contributions
 
@@ -61,8 +63,8 @@ Do cool combos, use special philosophy-inspired moves, and send opponents flying
 
 <!-- Attacks -->
 
-<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 500px; min-width: 200px; margin-left: 20px">
+<div class=article-col-sm-l>
+    <div class=left>
 
 # Attack System & Editor
 - System for handling attacks, their properties, and effects
@@ -70,7 +72,7 @@ Do cool combos, use special philosophy-inspired moves, and send opponents flying
 - Expandable by attaching unique scripts for special attacks
 
   </div>
-  <div style="float: right; width: 100%; max-width: 700px; min-width: 200px; margin-left: 20px">
+  <div class=right>
 
 {{< carousel images="carousel-2/*" aspectRatio="16-9" interval="2500" >}}
 

@@ -33,8 +33,12 @@ html {
 
 .max-w-full{
     max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.max-w-fit{
+    max-width: inherit;
 }
 
 .w-card {
@@ -47,6 +51,10 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.flex-row {
+    margin:0
 }
 
 /* iFrame Scaling (itch, youtube) */
@@ -175,4 +183,67 @@ html {
     max-height: 100px;
     width: 400px;
     padding-bottom: 10px;
+}
+
+
+/* Columns */
+/*
+    TODO Look at article references for styling of columns. 
+    Could update columns shortcode to this... so I dont have to deal with divs and stuff
+    Max is currently 1344, but I'm assuming its 1200px rn 
+    Although this means stuff isnt centered after I removed Article shirnking (single.html)
+*/
+
+/* Middle Split */
+
+.article-col{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-col .left{
+    float: left;
+    width: 100%;
+    max-width: 600px;
+    min-width: 200px;
+    margin-left: auto;
+}
+
+.article-col .right {
+    float: right;
+    width: 100%;
+    max-width: 600px;
+    min-width: 200px;
+    margin-right: auto;
+}
+
+/* Smaller Left Side */
+
+.article-col-sm-l {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-col-sm-l .left {
+    float: left;
+    width: 100%;
+    max-width: 400px;
+    min-width: 200px;
+    margin-left: auto;
+}
+
+.article-col-sm-l .right {
+    float: right;
+    width: 100%;
+    max-width: 800px;
+    min-width: 200px;
+    margin-right:auto;
 }

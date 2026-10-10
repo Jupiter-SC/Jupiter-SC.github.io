@@ -124,8 +124,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/site/css/main.bundle.min.1051a08cb2e09e5837ba7dc70feddb48daa866c6f8def78ea4be13308647389d41911f8e1c6ca6ef5656993dbef620299225aa5df0cd96f05d30a1624e8808bc.css"
-    integrity="sha512-EFGgjLLgnlg3un3HD&#43;3bSNqoZsb43veOpL4TMIZHOJ1BkR&#43;OHGym71ZWmT2&#43;9iApkiWqXfDNlvBdMKFiTogIvA==">
+    href="/site/css/main.bundle.min.426f6183a99d48755f11b5c102f5d1627e6504199888dab187f95ba077134643cc382899afb5f9190de282014a851ec2b1028c6393f6730fa426c56548373051.css"
+    integrity="sha512-Qm9hg6mdSHVfEbXBAvXRYn5lBBmYiNqxh/lboHcTRkPMOCiZr7X5GQ3iggFKhR7CsQKMY5P2cw&#43;kJsVlSDcwUQ==">
 
   
   
@@ -1450,7 +1450,9 @@
     </header>
 
     
-    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+    
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert">
       
       
       
@@ -1474,8 +1476,8 @@
 
 <!-- About & Role / Problem Statement -->
 <br>
-<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+<div class="article-col">
+    <div class="left">
 
 <h1 class="relative group">About the Game
     <div id="about-the-game" class="anchor"></div>
@@ -1492,7 +1494,7 @@
       <iframe id="responsive-iframe" src="https://itch.io/embed/4934283?border_width=0&amp;bg_color=222222&amp;fg_color=eeeeee&amp;link_color=320000&amp;border_color=363636"></iframe>
     </div>
   </div>
-  <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+  <div class="right">
 
 <h1 class="relative group">My Role
     <div id="my-role" class="anchor"></div>
@@ -1533,8 +1535,8 @@
 <br>
 <!-- Surface Shader -->
 <br>
-<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 400px; min-width: 200px; margin-left: 20px">
+<div class="article-col-sm-l">
+    <div class="left">
 
 <h1 class="relative group">Surface Shader
     <div id="surface-shader" class="anchor"></div>
@@ -1552,7 +1554,7 @@
 <li>
 <p>It consists of a toon surface shader with hatching and noise offsets, and inverse hull outlines</p>
 </div>
-<div style="float: right; width: 100%; max-width: 800px; min-width: 200px; margin-left: 20px">
+<div class="right">
 </li>
 </ul>
 <figure>
@@ -1568,8 +1570,8 @@
 <!-- For the surface shader have a turn around, and add on each “layer” / part of the shader one at a time (ex base lighting -> toon lighting -> noise offset), with bottom captions explaining whats added -->
 <!-- [TODO Replace tiny images with quick annotated videos with zoomed in sections :)] -->
 <br>
-<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+<div class="article-col">
+    <div class="left">
 <ul>
 <li>It’s a toon shader with 3 light levels, with a noise value added to make the shading splotchy. Then shadowed parts use different hatching textures.</li>
 </ul>
@@ -1582,7 +1584,7 @@
     src="Shadergraph-Toon.jpg"
     ></figure>
   </div>
-  <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+  <div class="right">
 <ul>
 <li>For the outlines my goal was to create a boiling lines effect. I used the inverse hull method for outlines, and then added a random offset per vertex to make them wobble. It switches between 3 variations based on time.</li>
 </ul>
@@ -1601,8 +1603,8 @@
 <!-- For the recolour  shader,  mention  the  reason for having 5  color options was to have them equally spaced and  fix can't   serialize gradients,  and it's faster than using another texture since it can all be done in engine -->
 <!-- TODO Show a pipeline video in editor tool screenshot video, formatted kinda like Minions Art!  -->
 <br>
-<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+<div class="article-col">
+    <div class="left">
 <!-- <figure>
   <video
     class="w-full rounded-md aspect-video object-contain"preload="metadata" autoplay loop muted controls playsinline>
@@ -1620,7 +1622,7 @@
     src="Shadergraph-Recolour.jpg"
     ></figure>
   </div>
-  <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+  <div class="right">
 
 <h1 class="relative group">Recolour Shader
     <div id="recolour-shader" class="anchor"></div>
@@ -1645,8 +1647,8 @@
 <!-- Randomizing Rooms -->
 <!-- For the room be sure to show off prop setup and recursive  nature (ben genning some recursives),  then gen the whole room -->
 <br>
-<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+<div class="article-col">
+    <div class="left">
 
 <h1 class="relative group">Room Randomization
     <div id="room-randomization" class="anchor"></div>
@@ -1679,7 +1681,7 @@
 </ul>
 <!-- [TODO Video with zoom ins and bottom captions to show what editing things do] -->
   </div>
-  <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+  <div class="right">
 <!-- <figure>
   <video
     class="w-full rounded-md aspect-video object-contain"preload="metadata" autoplay loop muted controls playsinline>
@@ -1709,7 +1711,7 @@
 
 <div class="width-patch"></div>
 <div
-  id="carousel-a3fe407a4c92c995bd9ae360f4327b38-1791618353529491400"
+  id="carousel-a3fe407a4c92c995bd9ae360f4327b38-1791620763039832400"
   class="relative"
   data-twe-carousel-init
   data-twe-ride="carousel"
@@ -1721,7 +1723,7 @@
     
       <button
         type="button"
-        data-twe-target="#carousel-a3fe407a4c92c995bd9ae360f4327b38-1791618353529491400"
+        data-twe-target="#carousel-a3fe407a4c92c995bd9ae360f4327b38-1791620763039832400"
         data-twe-slide-to="0"
         data-twe-carousel-active aria-current="true"
         class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
@@ -1730,7 +1732,7 @@
     
       <button
         type="button"
-        data-twe-target="#carousel-a3fe407a4c92c995bd9ae360f4327b38-1791618353529491400"
+        data-twe-target="#carousel-a3fe407a4c92c995bd9ae360f4327b38-1791620763039832400"
         data-twe-slide-to="1"
         
         class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
@@ -1739,7 +1741,7 @@
     
       <button
         type="button"
-        data-twe-target="#carousel-a3fe407a4c92c995bd9ae360f4327b38-1791618353529491400"
+        data-twe-target="#carousel-a3fe407a4c92c995bd9ae360f4327b38-1791620763039832400"
         data-twe-slide-to="2"
         
         class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
@@ -1797,7 +1799,7 @@
   <button
     class="absolute top-0 bottom-0 left-0 z-2 flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
     type="button"
-    data-twe-target="#carousel-a3fe407a4c92c995bd9ae360f4327b38-1791618353529491400"
+    data-twe-target="#carousel-a3fe407a4c92c995bd9ae360f4327b38-1791620763039832400"
     data-twe-slide="prev">
     <span class="inline-block h-8 w-8">
       <svg
@@ -1819,7 +1821,7 @@
   <button
     class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
     type="button"
-    data-twe-target="#carousel-a3fe407a4c92c995bd9ae360f4327b38-1791618353529491400"
+    data-twe-target="#carousel-a3fe407a4c92c995bd9ae360f4327b38-1791620763039832400"
     data-twe-slide="next">
     <span class="inline-block h-8 w-8">
       <svg
@@ -1861,7 +1863,7 @@
 
 <div class="width-patch"></div>
 <div
-  id="carousel-9f5b41eaec1233f80b9e3eb2b7afa9a8-1791618353530492300"
+  id="carousel-9f5b41eaec1233f80b9e3eb2b7afa9a8-1791620763039832400"
   class="relative"
   data-twe-carousel-init
   data-twe-ride="carousel"
@@ -1873,7 +1875,7 @@
     
       <button
         type="button"
-        data-twe-target="#carousel-9f5b41eaec1233f80b9e3eb2b7afa9a8-1791618353530492300"
+        data-twe-target="#carousel-9f5b41eaec1233f80b9e3eb2b7afa9a8-1791620763039832400"
         data-twe-slide-to="0"
         data-twe-carousel-active aria-current="true"
         class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
@@ -1882,7 +1884,7 @@
     
       <button
         type="button"
-        data-twe-target="#carousel-9f5b41eaec1233f80b9e3eb2b7afa9a8-1791618353530492300"
+        data-twe-target="#carousel-9f5b41eaec1233f80b9e3eb2b7afa9a8-1791620763039832400"
         data-twe-slide-to="1"
         
         class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
@@ -1891,7 +1893,7 @@
     
       <button
         type="button"
-        data-twe-target="#carousel-9f5b41eaec1233f80b9e3eb2b7afa9a8-1791618353530492300"
+        data-twe-target="#carousel-9f5b41eaec1233f80b9e3eb2b7afa9a8-1791620763039832400"
         data-twe-slide-to="2"
         
         class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
@@ -1949,7 +1951,7 @@
   <button
     class="absolute top-0 bottom-0 left-0 z-2 flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
     type="button"
-    data-twe-target="#carousel-9f5b41eaec1233f80b9e3eb2b7afa9a8-1791618353530492300"
+    data-twe-target="#carousel-9f5b41eaec1233f80b9e3eb2b7afa9a8-1791620763039832400"
     data-twe-slide="prev">
     <span class="inline-block h-8 w-8">
       <svg
@@ -1971,7 +1973,7 @@
   <button
     class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:no-underline hover:opacity-90 hover:outline-none focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
     type="button"
-    data-twe-target="#carousel-9f5b41eaec1233f80b9e3eb2b7afa9a8-1791618353530492300"
+    data-twe-target="#carousel-9f5b41eaec1233f80b9e3eb2b7afa9a8-1791620763039832400"
     data-twe-slide="next">
     <span class="inline-block h-8 w-8">
       <svg
@@ -2194,4 +2196,4 @@
     </div>
   </body>
   
-</html>
+</h

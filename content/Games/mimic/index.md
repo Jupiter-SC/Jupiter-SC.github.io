@@ -36,8 +36,8 @@ params:
 <!-- About & Role / Problem Statement -->
 
 <br>
-<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+<div class="article-col">
+    <div class="left">
 
 # About the Game
 
@@ -50,7 +50,7 @@ Our team's submission to the 2026.2 Brackeys Game Jam is Mimic, an asynchronous 
     </div>
   </div>
   
-  <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+  <div class="right">
     
 # My Role
 * I needed to create a visually disctinct shader style based on the artists and I's shared vision. And work on tooling to speed up work for Artist and Designer
@@ -67,15 +67,13 @@ Our team's submission to the 2026.2 Brackeys Game Jam is Mimic, an asynchronous 
 
 </div>
 <br>
-
-
 <br>
 
 <!-- Surface Shader -->
 
 <br>
-<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 400px; min-width: 200px; margin-left: 20px">
+<div class="article-col-sm-l">
+    <div class="left">
 
 # Surface Shader
 
@@ -84,7 +82,7 @@ Our team's submission to the 2026.2 Brackeys Game Jam is Mimic, an asynchronous 
 * It consists of a toon surface shader with hatching and noise offsets, and inverse hull outlines
 
   </div>
-  <div style="float: right; width: 100%; max-width: 800px; min-width: 200px; margin-left: 20px">
+  <div class="right">
 
 {{< video
   src="Clip_Showcase.mp4"
@@ -103,15 +101,16 @@ Our team's submission to the 2026.2 Brackeys Game Jam is Mimic, an asynchronous 
 <!-- [TODO Replace tiny images with quick annotated videos with zoomed in sections :)] -->
 
 <br>
-<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+
+<div class="article-col">
+    <div class="left">
 
 * It’s a toon shader with 3 light levels, with a noise value added to make the shading splotchy. Then shadowed parts use different hatching textures.
 
 ![Toon ShaderGraph image](Shadergraph-Toon.jpg)
 
   </div>
-  <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+  <div class="right">
 
 * For the outlines my goal was to create a boiling lines effect. I used the inverse hull method for outlines, and then added a random offset per vertex to make them wobble. It switches between 3 variations based on time.
 
@@ -128,8 +127,8 @@ Our team's submission to the 2026.2 Brackeys Game Jam is Mimic, an asynchronous 
 <!-- TODO Show a pipeline video in editor tool screenshot video, formatted kinda like Minions Art!  -->
 
 <br>
-<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+<div class="article-col">
+    <div class="left">
 
 <!-- {{< video
   src="Clip_Showcase.mp4"
@@ -143,7 +142,7 @@ Our team's submission to the 2026.2 Brackeys Game Jam is Mimic, an asynchronous 
 ![Outline ShaderGraph image](Shadergraph-Recolour.jpg)
 
   </div>
-  <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+  <div class="right">
 
 # Recolour Shader
 
@@ -159,8 +158,8 @@ Our team's submission to the 2026.2 Brackeys Game Jam is Mimic, an asynchronous 
 <!-- For the room be sure to show off prop setup and recursive  nature (ben genning some recursives),  then gen the whole room -->
 
 <br>
-<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:0">
-    <div style="float: left; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+<div class="article-col">
+    <div class="left">
 
 # Room Randomization
 
@@ -180,7 +179,7 @@ Our team's submission to the 2026.2 Brackeys Game Jam is Mimic, an asynchronous 
 <!-- [TODO Video with zoom ins and bottom captions to show what editing things do] -->
 
   </div>
-  <div style="float: right; width: 100%; max-width: 600px; min-width: 200px; margin-left: 20px">
+  <div class="right">
 
 <!-- {{< video
   src="Clip_Showcase.mp4"
