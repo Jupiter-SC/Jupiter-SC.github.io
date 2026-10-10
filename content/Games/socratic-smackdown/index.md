@@ -18,8 +18,6 @@ params:
   projectTimeline: "Aug 2025 - May 2026"
 ---
 
-**WIP**
-
 <!-- Header Video -->
 
 {{< youtube 
